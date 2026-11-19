@@ -1,0 +1,4232 @@
+{
+  "metrics": {
+    "images": 422,
+    "normal_images": 259,
+    "unknown_images": 163,
+    "auroc": 0.5911362721178672,
+    "aupr": 0.46760442943600944,
+    "fpr_at_tpr95": 0.8532818532818532
+  },
+  "scores": [
+    {
+      "relative_path": "glass-insulator/good/Fotos 01-12-2020_DJI_0048_cadeia_isolador_vidro_360.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0048_cadeia_isolador_vidro_360",
+      "dqce_score": 0.00214212154969573,
+      "dqce_logit": -6.1438140869140625
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 01-12-2020_DJI_0136_cadeia_isolador_vidro_272.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0136_cadeia_isolador_vidro_272",
+      "dqce_score": 0.9979637861251831,
+      "dqce_logit": 6.194619655609131
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 01-12-2020_DJI_0150_cadeia_isolador_vidro_281.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0150_cadeia_isolador_vidro_281",
+      "dqce_score": 0.0021859174594283104,
+      "dqce_logit": -6.123531341552734
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 01-12-2020_DJI_0192_cadeia_isolador_vidro_208.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0192_cadeia_isolador_vidro_208",
+      "dqce_score": 0.00214562239125371,
+      "dqce_logit": -6.142177581787109
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 01-12-2020_DJI_0193_cadeia_isolador_vidro_209.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0193_cadeia_isolador_vidro_209",
+      "dqce_score": 0.0022115663159638643,
+      "dqce_logit": -6.11184024810791
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 01-12-2020_DJI_0204_cadeia_isolador_vidro_215.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0204_cadeia_isolador_vidro_215",
+      "dqce_score": 0.9978260397911072,
+      "dqce_logit": 6.129062175750732
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 01-12-2020_DJI_0215_cadeia_isolador_vidro_227.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0215_cadeia_isolador_vidro_227",
+      "dqce_score": 0.997887909412384,
+      "dqce_logit": 6.157955169677734
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 01-12-2020_DJI_0229_cadeia_isolador_vidro_244.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0229_cadeia_isolador_vidro_244",
+      "dqce_score": 0.9565266966819763,
+      "dqce_logit": 3.091160535812378
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 01-12-2020_DJI_0241_cadeia_isolador_vidro_249.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0241_cadeia_isolador_vidro_249",
+      "dqce_score": 0.18287627398967743,
+      "dqce_logit": -1.4969806671142578
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 01-12-2020_DJI_0281_cadeia_isolador_vidro_174.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0281_cadeia_isolador_vidro_174",
+      "dqce_score": 0.9979389309883118,
+      "dqce_logit": 6.182491302490234
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 01-12-2020_DJI_0293_cadeia_isolador_vidro_185.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0293_cadeia_isolador_vidro_185",
+      "dqce_score": 0.9978845715522766,
+      "dqce_logit": 6.15641450881958
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 01-12-2020_DJI_0333_cadeia_isolador_vidro_129.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0333_cadeia_isolador_vidro_129",
+      "dqce_score": 0.9978854060173035,
+      "dqce_logit": 6.156804084777832
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 01-12-2020_DJI_0370_cadeia_isolador_vidro_154.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0370_cadeia_isolador_vidro_154",
+      "dqce_score": 0.0021451551001518965,
+      "dqce_logit": -6.142395973205566
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 01-12-2020_DJI_0399_cadeia_isolador_vidro_105.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0399_cadeia_isolador_vidro_105",
+      "dqce_score": 0.9977753758430481,
+      "dqce_logit": 6.105964660644531
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 01-12-2020_DJI_0449_cadeia_isolador_vidro_64.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0449_cadeia_isolador_vidro_64",
+      "dqce_score": 0.002156393602490425,
+      "dqce_logit": -6.13715934753418
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 01-12-2020_DJI_0480_cadeia_isolador_vidro_81.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0480_cadeia_isolador_vidro_81",
+      "dqce_score": 0.0022008910309523344,
+      "dqce_logit": -6.116689682006836
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 01-12-2020_DJI_0491_cadeia_isolador_vidro_92.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0491_cadeia_isolador_vidro_92",
+      "dqce_score": 0.0022524965461343527,
+      "dqce_logit": -6.093461036682129
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 01-12-2020_DJI_0505_cadeia_isolador_vidro_32.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0505_cadeia_isolador_vidro_32",
+      "dqce_score": 0.0021586406510323286,
+      "dqce_logit": -6.136115550994873
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 01-12-2020_DJI_0519_cadeia_isolador_vidro_40.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0519_cadeia_isolador_vidro_40",
+      "dqce_score": 0.9975420236587524,
+      "dqce_logit": 6.0059661865234375
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 01-12-2020_DJI_0520_cadeia_isolador_vidro_41.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0520_cadeia_isolador_vidro_41",
+      "dqce_score": 0.002156817354261875,
+      "dqce_logit": -6.136962413787842
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 01-12-2020_DJI_0537_cadeia_isolador_vidro_50.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0537_cadeia_isolador_vidro_50",
+      "dqce_score": 0.002158631570637226,
+      "dqce_logit": -6.136119842529297
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 02-12-2020_DJI_0012_cadeia_isolador_vidro_662.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 02-12-2020_DJI_0012_cadeia_isolador_vidro_662",
+      "dqce_score": 0.002147027989849448,
+      "dqce_logit": -6.141521453857422
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 02-12-2020_DJI_0019_cadeia_isolador_vidro_668.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 02-12-2020_DJI_0019_cadeia_isolador_vidro_668",
+      "dqce_score": 0.9975829124450684,
+      "dqce_logit": 6.022780418395996
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 02-12-2020_DJI_0160_cadeia_isolador_vidro_621.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 02-12-2020_DJI_0160_cadeia_isolador_vidro_621",
+      "dqce_score": 0.002228340832516551,
+      "dqce_logit": -6.104267120361328
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 02-12-2020_DJI_0184_cadeia_isolador_vidro_574.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 02-12-2020_DJI_0184_cadeia_isolador_vidro_574",
+      "dqce_score": 0.0021702151279896498,
+      "dqce_logit": -6.130756378173828
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 02-12-2020_DJI_0216_cadeia_isolador_vidro_594.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 02-12-2020_DJI_0216_cadeia_isolador_vidro_594",
+      "dqce_score": 0.9979497790336609,
+      "dqce_logit": 6.187749862670898
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 02-12-2020_DJI_0236_cadeia_isolador_vidro_534.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 02-12-2020_DJI_0236_cadeia_isolador_vidro_534",
+      "dqce_score": 0.0026627201586961746,
+      "dqce_logit": -5.925740718841553
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 02-12-2020_DJI_0237_cadeia_isolador_vidro_535.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 02-12-2020_DJI_0237_cadeia_isolador_vidro_535",
+      "dqce_score": 0.9977239966392517,
+      "dqce_logit": 6.083049774169922
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 02-12-2020_DJI_0292_cadeia_isolador_vidro_488.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 02-12-2020_DJI_0292_cadeia_isolador_vidro_488",
+      "dqce_score": 0.0022809349466115236,
+      "dqce_logit": -6.080886363983154
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 02-12-2020_DJI_0314_cadeia_isolador_vidro_506.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 02-12-2020_DJI_0314_cadeia_isolador_vidro_506",
+      "dqce_score": 0.9978243112564087,
+      "dqce_logit": 6.128243446350098
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 02-12-2020_DJI_0338_cadeia_isolador_vidro_524.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 02-12-2020_DJI_0338_cadeia_isolador_vidro_524",
+      "dqce_score": 0.002149802166968584,
+      "dqce_logit": -6.140227317810059
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 02-12-2020_DJI_0341_cadeia_isolador_vidro_526.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 02-12-2020_DJI_0341_cadeia_isolador_vidro_526",
+      "dqce_score": 0.9830846190452576,
+      "dqce_logit": 4.062474250793457
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 02-12-2020_DJI_0358_cadeia_isolador_vidro_452.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 02-12-2020_DJI_0358_cadeia_isolador_vidro_452",
+      "dqce_score": 0.0025558308698236942,
+      "dqce_logit": -5.966818809509277
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 02-12-2020_DJI_0401_cadeia_isolador_vidro_481.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 02-12-2020_DJI_0401_cadeia_isolador_vidro_481",
+      "dqce_score": 0.0032280951272696257,
+      "dqce_logit": -5.732629776000977
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 02-12-2020_DJI_0489_cadeia_isolador_vidro_382.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 02-12-2020_DJI_0489_cadeia_isolador_vidro_382",
+      "dqce_score": 0.8822933435440063,
+      "dqce_logit": 2.014329195022583
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 02-12-2020_DJI_0508_cadeia_isolador_vidro_396.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 02-12-2020_DJI_0508_cadeia_isolador_vidro_396",
+      "dqce_score": 0.002300390275195241,
+      "dqce_logit": -6.072373390197754
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 02-12-2020_DJI_0519_cadeia_isolador_vidro_398.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 02-12-2020_DJI_0519_cadeia_isolador_vidro_398",
+      "dqce_score": 0.9979410767555237,
+      "dqce_logit": 6.1835222244262695
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 02-12-2020_DJI_0521_cadeia_isolador_vidro_400.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 02-12-2020_DJI_0521_cadeia_isolador_vidro_400",
+      "dqce_score": 0.0022174171172082424,
+      "dqce_logit": -6.109192371368408
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 03-12-2020_DJI_0084_cadeia_isolador_vidro_999.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0084_cadeia_isolador_vidro_999",
+      "dqce_score": 0.9979185461997986,
+      "dqce_logit": 6.172607421875
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 03-12-2020_DJI_0091_cadeia_isolador_vidro_1003.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0091_cadeia_isolador_vidro_1003",
+      "dqce_score": 0.002156877890229225,
+      "dqce_logit": -6.136934280395508
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 03-12-2020_DJI_0229_cadeia_isolador_vidro_945.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0229_cadeia_isolador_vidro_945",
+      "dqce_score": 0.002193997846916318,
+      "dqce_logit": -6.119833469390869
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 03-12-2020_DJI_0312_cadeia_isolador_vidro_866.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0312_cadeia_isolador_vidro_866",
+      "dqce_score": 0.9977276921272278,
+      "dqce_logit": 6.0847015380859375
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 03-12-2020_DJI_0329_cadeia_isolador_vidro_881.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0329_cadeia_isolador_vidro_881",
+      "dqce_score": 0.002596871228888631,
+      "dqce_logit": -5.950847625732422
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 03-12-2020_DJI_0358_cadeia_isolador_vidro_907.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0358_cadeia_isolador_vidro_907",
+      "dqce_score": 0.9979709982872009,
+      "dqce_logit": 6.198204517364502
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 03-12-2020_DJI_0472_cadeia_isolador_vidro_763.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0472_cadeia_isolador_vidro_763",
+      "dqce_score": 0.002259298926219344,
+      "dqce_logit": -6.0904388427734375
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 03-12-2020_DJI_0537_cadeia_isolador_vidro_739.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0537_cadeia_isolador_vidro_739",
+      "dqce_score": 0.0022622717078775167,
+      "dqce_logit": -6.089120864868164
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 03-12-2020_DJI_0557_cadeia_isolador_vidro_698.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0557_cadeia_isolador_vidro_698",
+      "dqce_score": 0.0022591077722609043,
+      "dqce_logit": -6.090523719787598
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 03-12-2020_DJI_0588_cadeia_isolador_vidro_715.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0588_cadeia_isolador_vidro_715",
+      "dqce_score": 0.002254025312140584,
+      "dqce_logit": -6.092781066894531
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 03-12-2020_DJI_0590_cadeia_isolador_vidro_717.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0590_cadeia_isolador_vidro_717",
+      "dqce_score": 0.9977387189865112,
+      "dqce_logit": 6.089561462402344
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 04-12-2020_DJI_0661_cadeia_isolador_vidro_1211.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 04-12-2020_DJI_0661_cadeia_isolador_vidro_1211",
+      "dqce_score": 0.9966421127319336,
+      "dqce_logit": 5.693059921264648
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 04-12-2020_DJI_0684_cadeia_isolador_vidro_1224.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 04-12-2020_DJI_0684_cadeia_isolador_vidro_1224",
+      "dqce_score": 0.6509286761283875,
+      "dqce_logit": 0.6231240630149841
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 04-12-2020_DJI_0725_cadeia_isolador_vidro_1194.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 04-12-2020_DJI_0725_cadeia_isolador_vidro_1194",
+      "dqce_score": 0.0023817296605557203,
+      "dqce_logit": -6.037543773651123
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 04-12-2020_DJI_0727_cadeia_isolador_vidro_1196.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 04-12-2020_DJI_0727_cadeia_isolador_vidro_1196",
+      "dqce_score": 0.9977390766143799,
+      "dqce_logit": 6.089730739593506
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 04-12-2020_DJI_0765_cadeia_isolador_vidro_1169.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 04-12-2020_DJI_0765_cadeia_isolador_vidro_1169",
+      "dqce_score": 0.002151638036593795,
+      "dqce_logit": -6.139371871948242
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 04-12-2020_DJI_0783_cadeia_isolador_vidro_1178.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 04-12-2020_DJI_0783_cadeia_isolador_vidro_1178",
+      "dqce_score": 0.002174204448238015,
+      "dqce_logit": -6.128915786743164
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 04-12-2020_DJI_0809_cadeia_isolador_vidro_1149.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 04-12-2020_DJI_0809_cadeia_isolador_vidro_1149",
+      "dqce_score": 0.0021637482568621635,
+      "dqce_logit": -6.133747100830078
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 04-12-2020_DJI_0906_cadeia_isolador_vidro_1108.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 04-12-2020_DJI_0906_cadeia_isolador_vidro_1108",
+      "dqce_score": 0.9975383281707764,
+      "dqce_logit": 6.004459381103516
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 04-12-2020_DJI_0929_cadeia_isolador_vidro_1121.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 04-12-2020_DJI_0929_cadeia_isolador_vidro_1121",
+      "dqce_score": 0.0021575596183538437,
+      "dqce_logit": -6.136617660522461
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 04-12-2020_DJI_0943_cadeia_isolador_vidro_1081.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 04-12-2020_DJI_0943_cadeia_isolador_vidro_1081",
+      "dqce_score": 0.002187923528254032,
+      "dqce_logit": -6.122611999511719
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 04-12-2020_DJI_0973_cadeia_isolador_vidro_1097.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 04-12-2020_DJI_0973_cadeia_isolador_vidro_1097",
+      "dqce_score": 0.9977700710296631,
+      "dqce_logit": 6.103544235229492
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 07-12-2020_DJI_0021_cadeia_isolador_vidro_1397.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 07-12-2020_DJI_0021_cadeia_isolador_vidro_1397",
+      "dqce_score": 0.0991031676530838,
+      "dqce_logit": -2.2072293758392334
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 07-12-2020_DJI_0102_cadeia_isolador_vidro_1364.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 07-12-2020_DJI_0102_cadeia_isolador_vidro_1364",
+      "dqce_score": 0.9968127608299255,
+      "dqce_logit": 5.7453999519348145
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 07-12-2020_DJI_0108_cadeia_isolador_vidro_1370.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 07-12-2020_DJI_0108_cadeia_isolador_vidro_1370",
+      "dqce_score": 0.002236491534858942,
+      "dqce_logit": -6.100607872009277
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 07-12-2020_DJI_0167_cadeia_isolador_vidro_1357.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 07-12-2020_DJI_0167_cadeia_isolador_vidro_1357",
+      "dqce_score": 0.9979413151741028,
+      "dqce_logit": 6.183660507202148
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 07-12-2020_DJI_0248_cadeia_isolador_vidro_1315.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 07-12-2020_DJI_0248_cadeia_isolador_vidro_1315",
+      "dqce_score": 0.0022420145105570555,
+      "dqce_logit": -6.098135948181152
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 07-12-2020_DJI_0313_cadeia_isolador_vidro_1251.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 07-12-2020_DJI_0313_cadeia_isolador_vidro_1251",
+      "dqce_score": 0.9975505471229553,
+      "dqce_logit": 6.009422302246094
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 07-12-2020_DJI_0334_cadeia_isolador_vidro_1263.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 07-12-2020_DJI_0334_cadeia_isolador_vidro_1263",
+      "dqce_score": 0.004563511349260807,
+      "dqce_logit": -5.385088920593262
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 08-12-2020_DJI_0369_cadeia_isolador_vidro_1414.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 08-12-2020_DJI_0369_cadeia_isolador_vidro_1414",
+      "dqce_score": 0.0025192690081894398,
+      "dqce_logit": -5.981264114379883
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 08-12-2020_DJI_0390_cadeia_isolador_vidro_1426.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 08-12-2020_DJI_0390_cadeia_isolador_vidro_1426",
+      "dqce_score": 0.0021813656203448772,
+      "dqce_logit": -6.125620365142822
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 08-12-2020_DJI_0416_cadeia_isolador_vidro_1441.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 08-12-2020_DJI_0416_cadeia_isolador_vidro_1441",
+      "dqce_score": 0.0021983582992106676,
+      "dqce_logit": -6.1178436279296875
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 08-12-2020_DJI_0420_cadeia_isolador_vidro_1442.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 08-12-2020_DJI_0420_cadeia_isolador_vidro_1442",
+      "dqce_score": 0.9844769239425659,
+      "dqce_logit": 4.149785995483398
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 16-11-2020_DJI_0037_cadeia_isolador_vidro_1468.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 16-11-2020_DJI_0037_cadeia_isolador_vidro_1468",
+      "dqce_score": 0.9976917505264282,
+      "dqce_logit": 6.068930625915527
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 16-11-2020_DJI_0063_cadeia_isolador_vidro_1450.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 16-11-2020_DJI_0063_cadeia_isolador_vidro_1450",
+      "dqce_score": 0.0022094123996794224,
+      "dqce_logit": -6.11281681060791
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 16-11-2020_DJI_0064_cadeia_isolador_vidro_1451.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 16-11-2020_DJI_0064_cadeia_isolador_vidro_1451",
+      "dqce_score": 0.9977542757987976,
+      "dqce_logit": 6.096463203430176
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 17-11-2020_DJI_0134_cadeia_isolador_vidro_1508.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 17-11-2020_DJI_0134_cadeia_isolador_vidro_1508",
+      "dqce_score": 0.997951090335846,
+      "dqce_logit": 6.188403606414795
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 19-10-2020_DJI_0061_cadeia_isolador_vidro_1.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 19-10-2020_DJI_0061_cadeia_isolador_vidro_1",
+      "dqce_score": 0.003641335526481271,
+      "dqce_logit": -5.611756801605225
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 19-10-2020_DJI_0066_cadeia_isolador_vidro_18.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 19-10-2020_DJI_0066_cadeia_isolador_vidro_18",
+      "dqce_score": 0.9978925585746765,
+      "dqce_logit": 6.160165309906006
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 21-10-2020_DJI_0416_cadeia_isolador_vidro_1568.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 21-10-2020_DJI_0416_cadeia_isolador_vidro_1568",
+      "dqce_score": 0.9974397420883179,
+      "dqce_logit": 5.965085029602051
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 21-10-2020_DJI_0453_cadeia_isolador_vidro_1578.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 21-10-2020_DJI_0453_cadeia_isolador_vidro_1578",
+      "dqce_score": 0.002372232498601079,
+      "dqce_logit": -6.041548728942871
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 21-10-2020_DJI_0453_cadeia_isolador_vidro_1579.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 21-10-2020_DJI_0453_cadeia_isolador_vidro_1579",
+      "dqce_score": 0.9375752806663513,
+      "dqce_logit": 2.7093355655670166
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 21-10-2020_DJI_0459_cadeia_isolador_vidro_1584.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 21-10-2020_DJI_0459_cadeia_isolador_vidro_1584",
+      "dqce_score": 0.9979471564292908,
+      "dqce_logit": 6.186476707458496
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 21-10-2020_DJI_0484_cadeia_isolador_vidro_1598.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 21-10-2020_DJI_0484_cadeia_isolador_vidro_1598",
+      "dqce_score": 0.9979565143585205,
+      "dqce_logit": 6.191033840179443
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 21-10-2020_DJI_0503_cadeia_isolador_vidro_1605.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 21-10-2020_DJI_0503_cadeia_isolador_vidro_1605",
+      "dqce_score": 0.0023174844682216644,
+      "dqce_logit": -6.064952850341797
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 21-10-2020_DJI_0609_cadeia_isolador_vidro_1533.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 21-10-2020_DJI_0609_cadeia_isolador_vidro_1533",
+      "dqce_score": 0.9978883862495422,
+      "dqce_logit": 6.158205032348633
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 25-11-2020_DJI_0246_cadeia_isolador_vidro_1828.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 25-11-2020_DJI_0246_cadeia_isolador_vidro_1828",
+      "dqce_score": 0.9592233896255493,
+      "dqce_logit": 3.1580142974853516
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 25-11-2020_DJI_0262_cadeia_isolador_vidro_1840.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 25-11-2020_DJI_0262_cadeia_isolador_vidro_1840",
+      "dqce_score": 0.002168116858229041,
+      "dqce_logit": -6.131725788116455
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 25-11-2020_DJI_0268_cadeia_isolador_vidro_1845.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 25-11-2020_DJI_0268_cadeia_isolador_vidro_1845",
+      "dqce_score": 0.9979167580604553,
+      "dqce_logit": 6.171738147735596
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 25-11-2020_DJI_0309_cadeia_isolador_vidro_1805.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 25-11-2020_DJI_0309_cadeia_isolador_vidro_1805",
+      "dqce_score": 0.9979671835899353,
+      "dqce_logit": 6.1962971687316895
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 25-11-2020_DJI_0361_cadeia_isolador_vidro_1701.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 25-11-2020_DJI_0361_cadeia_isolador_vidro_1701",
+      "dqce_score": 0.9977989792823792,
+      "dqce_logit": 6.116641521453857
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 25-11-2020_DJI_0362_cadeia_isolador_vidro_1702.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 25-11-2020_DJI_0362_cadeia_isolador_vidro_1702",
+      "dqce_score": 0.0021864292211830616,
+      "dqce_logit": -6.123296737670898
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 25-11-2020_DJI_0390_cadeia_isolador_vidro_1720.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 25-11-2020_DJI_0390_cadeia_isolador_vidro_1720",
+      "dqce_score": 0.0021936376579105854,
+      "dqce_logit": -6.119997978210449
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 25-11-2020_DJI_0404_cadeia_isolador_vidro_1729.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 25-11-2020_DJI_0404_cadeia_isolador_vidro_1729",
+      "dqce_score": 0.0021542911417782307,
+      "dqce_logit": -6.138136863708496
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 25-11-2020_DJI_0417_cadeia_isolador_vidro_1744.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 25-11-2020_DJI_0417_cadeia_isolador_vidro_1744",
+      "dqce_score": 0.002227149438112974,
+      "dqce_logit": -6.104803085327148
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 25-11-2020_DJI_0424_cadeia_isolador_vidro_1750.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 25-11-2020_DJI_0424_cadeia_isolador_vidro_1750",
+      "dqce_score": 0.0037353436928242445,
+      "dqce_logit": -5.586173057556152
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 25-11-2020_DJI_0452_cadeia_isolador_vidro_1782.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 25-11-2020_DJI_0452_cadeia_isolador_vidro_1782",
+      "dqce_score": 0.9977898597717285,
+      "dqce_logit": 6.112490653991699
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 25-11-2020_DJI_0558_cadeia_isolador_vidro_1652.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 25-11-2020_DJI_0558_cadeia_isolador_vidro_1652",
+      "dqce_score": 0.564958930015564,
+      "dqce_logit": 0.26131266355514526
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 26-11-2020_DJI_0014_cadeia_isolador_vidro_2225.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 26-11-2020_DJI_0014_cadeia_isolador_vidro_2225",
+      "dqce_score": 0.0022338158451020718,
+      "dqce_logit": -6.101807594299316
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 26-11-2020_DJI_0085_cadeia_isolador_vidro_2178.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 26-11-2020_DJI_0085_cadeia_isolador_vidro_2178",
+      "dqce_score": 0.9979090690612793,
+      "dqce_logit": 6.168017387390137
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 26-11-2020_DJI_0088_cadeia_isolador_vidro_2181.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 26-11-2020_DJI_0088_cadeia_isolador_vidro_2181",
+      "dqce_score": 0.9979594945907593,
+      "dqce_logit": 6.1925435066223145
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 26-11-2020_DJI_0096_cadeia_isolador_vidro_2185.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 26-11-2020_DJI_0096_cadeia_isolador_vidro_2185",
+      "dqce_score": 0.9965877532958984,
+      "dqce_logit": 5.676973342895508
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 26-11-2020_DJI_0107_cadeia_isolador_vidro_2196.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 26-11-2020_DJI_0107_cadeia_isolador_vidro_2196",
+      "dqce_score": 0.0021459246054291725,
+      "dqce_logit": -6.142036437988281
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 26-11-2020_DJI_0124_cadeia_isolador_vidro_2207.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 26-11-2020_DJI_0124_cadeia_isolador_vidro_2207",
+      "dqce_score": 0.9977599382400513,
+      "dqce_logit": 6.099017143249512
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 26-11-2020_DJI_0147_cadeia_isolador_vidro_2135.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 26-11-2020_DJI_0147_cadeia_isolador_vidro_2135",
+      "dqce_score": 0.9979397654533386,
+      "dqce_logit": 6.182880878448486
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 26-11-2020_DJI_0151_cadeia_isolador_vidro_2139.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 26-11-2020_DJI_0151_cadeia_isolador_vidro_2139",
+      "dqce_score": 0.0021554355043917894,
+      "dqce_logit": -6.137604713439941
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 26-11-2020_DJI_0154_cadeia_isolador_vidro_2142.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 26-11-2020_DJI_0154_cadeia_isolador_vidro_2142",
+      "dqce_score": 0.997582197189331,
+      "dqce_logit": 6.022489547729492
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 26-11-2020_DJI_0181_cadeia_isolador_vidro_2157.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 26-11-2020_DJI_0181_cadeia_isolador_vidro_2157",
+      "dqce_score": 0.002165420912206173,
+      "dqce_logit": -6.132972717285156
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 26-11-2020_DJI_0252_cadeia_isolador_vidro_2126.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 26-11-2020_DJI_0252_cadeia_isolador_vidro_2126",
+      "dqce_score": 0.0022065802477300167,
+      "dqce_logit": -6.114102363586426
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 26-11-2020_DJI_0304_cadeia_isolador_vidro_2062.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 26-11-2020_DJI_0304_cadeia_isolador_vidro_2062",
+      "dqce_score": 0.002547779120504856,
+      "dqce_logit": -5.969982147216797
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 26-11-2020_DJI_0322_cadeia_isolador_vidro_2074.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 26-11-2020_DJI_0322_cadeia_isolador_vidro_2074",
+      "dqce_score": 0.0021418158430606127,
+      "dqce_logit": -6.143957138061523
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 26-11-2020_DJI_0323_cadeia_isolador_vidro_2075.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 26-11-2020_DJI_0323_cadeia_isolador_vidro_2075",
+      "dqce_score": 0.9979008436203003,
+      "dqce_logit": 6.164097785949707
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 26-11-2020_DJI_0353_cadeia_isolador_vidro_1904.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 26-11-2020_DJI_0353_cadeia_isolador_vidro_1904",
+      "dqce_score": 0.5195815563201904,
+      "dqce_logit": 0.07836631685495377
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 26-11-2020_DJI_0389_cadeia_isolador_vidro_1929.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 26-11-2020_DJI_0389_cadeia_isolador_vidro_1929",
+      "dqce_score": 0.9975782036781311,
+      "dqce_logit": 6.020789623260498
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 26-11-2020_DJI_0427_cadeia_isolador_vidro_1953.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 26-11-2020_DJI_0427_cadeia_isolador_vidro_1953",
+      "dqce_score": 0.9979402422904968,
+      "dqce_logit": 6.183098793029785
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 26-11-2020_DJI_0516_cadeia_isolador_vidro_2004.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 26-11-2020_DJI_0516_cadeia_isolador_vidro_2004",
+      "dqce_score": 0.002165775513276458,
+      "dqce_logit": -6.132808685302734
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 27-11-2020_DJI_0011_cadeia_isolador_vidro_2597.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0011_cadeia_isolador_vidro_2597",
+      "dqce_score": 0.002151764929294586,
+      "dqce_logit": -6.139312744140625
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 27-11-2020_DJI_0027_cadeia_isolador_vidro_2608.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0027_cadeia_isolador_vidro_2608",
+      "dqce_score": 0.0021830943878740072,
+      "dqce_logit": -6.124826431274414
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 27-11-2020_DJI_0035_cadeia_isolador_vidro_2615.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0035_cadeia_isolador_vidro_2615",
+      "dqce_score": 0.0022934884764254093,
+      "dqce_logit": -6.075385093688965
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 27-11-2020_DJI_0070_cadeia_isolador_vidro_2569.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0070_cadeia_isolador_vidro_2569",
+      "dqce_score": 0.0021436286624521017,
+      "dqce_logit": -6.143109321594238
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 27-11-2020_DJI_0073_cadeia_isolador_vidro_2571.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0073_cadeia_isolador_vidro_2571",
+      "dqce_score": 0.9977071285247803,
+      "dqce_logit": 6.075650691986084
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 27-11-2020_DJI_0131_cadeia_isolador_vidro_2531.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0131_cadeia_isolador_vidro_2531",
+      "dqce_score": 0.9978671073913574,
+      "dqce_logit": 6.148176193237305
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 27-11-2020_DJI_0134_cadeia_isolador_vidro_2534.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0134_cadeia_isolador_vidro_2534",
+      "dqce_score": 0.0024871532805263996,
+      "dqce_logit": -5.994126319885254
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 27-11-2020_DJI_0144_cadeia_isolador_vidro_2538.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0144_cadeia_isolador_vidro_2538",
+      "dqce_score": 0.9771717190742493,
+      "dqce_logit": 3.756662607192993
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 27-11-2020_DJI_0243_cadeia_isolador_vidro_2505.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0243_cadeia_isolador_vidro_2505",
+      "dqce_score": 0.9976978898048401,
+      "dqce_logit": 6.071639060974121
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 27-11-2020_DJI_0257_cadeia_isolador_vidro_2519.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0257_cadeia_isolador_vidro_2519",
+      "dqce_score": 0.9977158308029175,
+      "dqce_logit": 6.079480171203613
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 27-11-2020_DJI_0297_cadeia_isolador_vidro_2452.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0297_cadeia_isolador_vidro_2452",
+      "dqce_score": 0.67765212059021,
+      "dqce_logit": 0.7430026531219482
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 27-11-2020_DJI_0306_cadeia_isolador_vidro_2460.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0306_cadeia_isolador_vidro_2460",
+      "dqce_score": 0.0021772750187665224,
+      "dqce_logit": -6.127501487731934
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 27-11-2020_DJI_0328_cadeia_isolador_vidro_2472.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0328_cadeia_isolador_vidro_2472",
+      "dqce_score": 0.0021456938702613115,
+      "dqce_logit": -6.142144203186035
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 27-11-2020_DJI_0345_cadeia_isolador_vidro_2404.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0345_cadeia_isolador_vidro_2404",
+      "dqce_score": 0.0039557963609695435,
+      "dqce_logit": -5.528609752655029
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 27-11-2020_DJI_0348_cadeia_isolador_vidro_2407.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0348_cadeia_isolador_vidro_2407",
+      "dqce_score": 0.9978976249694824,
+      "dqce_logit": 6.162578582763672
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 27-11-2020_DJI_0351_cadeia_isolador_vidro_2409.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0351_cadeia_isolador_vidro_2409",
+      "dqce_score": 0.9972659349441528,
+      "dqce_logit": 5.89921760559082
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 27-11-2020_DJI_0356_cadeia_isolador_vidro_2410.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0356_cadeia_isolador_vidro_2410",
+      "dqce_score": 0.9979051351547241,
+      "dqce_logit": 6.166182041168213
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 27-11-2020_DJI_0385_cadeia_isolador_vidro_2426.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0385_cadeia_isolador_vidro_2426",
+      "dqce_score": 0.002153741894289851,
+      "dqce_logit": -6.138392448425293
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 27-11-2020_DJI_0409_cadeia_isolador_vidro_2358.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0409_cadeia_isolador_vidro_2358",
+      "dqce_score": 0.9873487949371338,
+      "dqce_logit": 4.357267379760742
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 27-11-2020_DJI_0434_cadeia_isolador_vidro_2377.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0434_cadeia_isolador_vidro_2377",
+      "dqce_score": 0.9967195391654968,
+      "dqce_logit": 5.716494560241699
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 27-11-2020_DJI_0452_cadeia_isolador_vidro_2385.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0452_cadeia_isolador_vidro_2385",
+      "dqce_score": 0.9979445338249207,
+      "dqce_logit": 6.18519926071167
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 27-11-2020_DJI_0480_cadeia_isolador_vidro_2317.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0480_cadeia_isolador_vidro_2317",
+      "dqce_score": 0.002177096903324127,
+      "dqce_logit": -6.1275835037231445
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 27-11-2020_DJI_0482_cadeia_isolador_vidro_2319.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0482_cadeia_isolador_vidro_2319",
+      "dqce_score": 0.99788898229599,
+      "dqce_logit": 6.158481121063232
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 27-11-2020_DJI_0486_cadeia_isolador_vidro_2323.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0486_cadeia_isolador_vidro_2323",
+      "dqce_score": 0.9978875517845154,
+      "dqce_logit": 6.157777309417725
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 27-11-2020_DJI_0502_cadeia_isolador_vidro_2332.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0502_cadeia_isolador_vidro_2332",
+      "dqce_score": 0.997724711894989,
+      "dqce_logit": 6.083382606506348
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 27-11-2020_DJI_0506_cadeia_isolador_vidro_2336.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0506_cadeia_isolador_vidro_2336",
+      "dqce_score": 0.002161347772926092,
+      "dqce_logit": -6.134859561920166
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 27-11-2020_DJI_0520_cadeia_isolador_vidro_2340.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0520_cadeia_isolador_vidro_2340",
+      "dqce_score": 0.0022363148164004087,
+      "dqce_logit": -6.100687026977539
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 27-11-2020_DJI_0560_cadeia_isolador_vidro_2280.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0560_cadeia_isolador_vidro_2280",
+      "dqce_score": 0.9978832602500916,
+      "dqce_logit": 6.15578556060791
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 27-11-2020_DJI_0605_cadeia_isolador_vidro_2308.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0605_cadeia_isolador_vidro_2308",
+      "dqce_score": 0.002202942268922925,
+      "dqce_logit": -6.115756034851074
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 30-11-2020_DJI_0037_cadeia_isolador_vidro_2956.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0037_cadeia_isolador_vidro_2956",
+      "dqce_score": 0.5743903517723083,
+      "dqce_logit": 0.2997865676879883
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 30-11-2020_DJI_0066_cadeia_isolador_vidro_2972.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0066_cadeia_isolador_vidro_2972",
+      "dqce_score": 0.0023313818965107203,
+      "dqce_logit": -6.0589599609375
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 30-11-2020_DJI_0090_cadeia_isolador_vidro_2848.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0090_cadeia_isolador_vidro_2848",
+      "dqce_score": 0.9978996515274048,
+      "dqce_logit": 6.163547039031982
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 30-11-2020_DJI_0097_cadeia_isolador_vidro_2853.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0097_cadeia_isolador_vidro_2853",
+      "dqce_score": 0.002417462645098567,
+      "dqce_logit": -6.022616386413574
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 30-11-2020_DJI_0102_cadeia_isolador_vidro_2858.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0102_cadeia_isolador_vidro_2858",
+      "dqce_score": 0.0021861065179109573,
+      "dqce_logit": -6.123444557189941
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 30-11-2020_DJI_0114_cadeia_isolador_vidro_2874.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0114_cadeia_isolador_vidro_2874",
+      "dqce_score": 0.9834725856781006,
+      "dqce_logit": 4.0860676765441895
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 30-11-2020_DJI_0116_cadeia_isolador_vidro_2878.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0116_cadeia_isolador_vidro_2878",
+      "dqce_score": 0.9979192614555359,
+      "dqce_logit": 6.1729326248168945
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 30-11-2020_DJI_0120_cadeia_isolador_vidro_2882.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0120_cadeia_isolador_vidro_2882",
+      "dqce_score": 0.0022689925972372293,
+      "dqce_logit": -6.086147785186768
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 30-11-2020_DJI_0132_cadeia_isolador_vidro_2891.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0132_cadeia_isolador_vidro_2891",
+      "dqce_score": 0.9979642629623413,
+      "dqce_logit": 6.19484281539917
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 30-11-2020_DJI_0137_cadeia_isolador_vidro_2904.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0137_cadeia_isolador_vidro_2904",
+      "dqce_score": 0.002246545860543847,
+      "dqce_logit": -6.096112251281738
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 30-11-2020_DJI_0163_cadeia_isolador_vidro_2938.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0163_cadeia_isolador_vidro_2938",
+      "dqce_score": 0.9979621171951294,
+      "dqce_logit": 6.1938157081604
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 30-11-2020_DJI_0166_cadeia_isolador_vidro_2942.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0166_cadeia_isolador_vidro_2942",
+      "dqce_score": 0.002243656665086746,
+      "dqce_logit": -6.097402095794678
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 30-11-2020_DJI_0201_cadeia_isolador_vidro_2818.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0201_cadeia_isolador_vidro_2818",
+      "dqce_score": 0.002201884053647518,
+      "dqce_logit": -6.116237640380859
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 30-11-2020_DJI_0275_cadeia_isolador_vidro_2799.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0275_cadeia_isolador_vidro_2799",
+      "dqce_score": 0.9979099631309509,
+      "dqce_logit": 6.168496131896973
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 30-11-2020_DJI_0313_cadeia_isolador_vidro_2753.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0313_cadeia_isolador_vidro_2753",
+      "dqce_score": 0.0021680458448827267,
+      "dqce_logit": -6.131758689880371
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 30-11-2020_DJI_0347_cadeia_isolador_vidro_2770.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0347_cadeia_isolador_vidro_2770",
+      "dqce_score": 0.6748680472373962,
+      "dqce_logit": 0.7302863001823425
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 30-11-2020_DJI_0350_cadeia_isolador_vidro_2773.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0350_cadeia_isolador_vidro_2773",
+      "dqce_score": 0.0021460934076458216,
+      "dqce_logit": -6.141957759857178
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 30-11-2020_DJI_0352_cadeia_isolador_vidro_2775.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0352_cadeia_isolador_vidro_2775",
+      "dqce_score": 0.002614488359540701,
+      "dqce_logit": -5.944068908691406
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 30-11-2020_DJI_0381_cadeia_isolador_vidro_2717.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0381_cadeia_isolador_vidro_2717",
+      "dqce_score": 0.0027039856649935246,
+      "dqce_logit": -5.91032075881958
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 30-11-2020_DJI_0384_cadeia_isolador_vidro_2721.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0384_cadeia_isolador_vidro_2721",
+      "dqce_score": 0.9972285628318787,
+      "dqce_logit": 5.885618686676025
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 30-11-2020_DJI_0386_cadeia_isolador_vidro_2723.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0386_cadeia_isolador_vidro_2723",
+      "dqce_score": 0.002209370257332921,
+      "dqce_logit": -6.112835884094238
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 30-11-2020_DJI_0427_cadeia_isolador_vidro_2684.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0427_cadeia_isolador_vidro_2684",
+      "dqce_score": 0.39189690351486206,
+      "dqce_logit": -0.4393455386161804
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 30-11-2020_DJI_0453_cadeia_isolador_vidro_2698.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0453_cadeia_isolador_vidro_2698",
+      "dqce_score": 0.9976333379745483,
+      "dqce_logit": 6.043902397155762
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 30-11-2020_DJI_0514_cadeia_isolador_vidro_2668.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0514_cadeia_isolador_vidro_2668",
+      "dqce_score": 0.9979261159896851,
+      "dqce_logit": 6.176281929016113
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 30-11-2020_DJI_0571_cadeia_isolador_vidro_2637.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0571_cadeia_isolador_vidro_2637",
+      "dqce_score": 0.002240709261968732,
+      "dqce_logit": -6.098719596862793
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 30-11-2020_DJI_0573_cadeia_isolador_vidro_2639.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0573_cadeia_isolador_vidro_2639",
+      "dqce_score": 0.0022170287556946278,
+      "dqce_logit": -6.109367847442627
+    },
+    {
+      "relative_path": "glass-insulator/good/Fotos 30-11-2020_DJI_0589_cadeia_isolador_vidro_2647.jpg",
+      "component": "glass-insulator",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0589_cadeia_isolador_vidro_2647",
+      "dqce_score": 0.0022011571563780308,
+      "dqce_logit": -6.116568565368652
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 01-12-2020_DJI_0014_cadeia_isolador_vidro_338_1.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0014_cadeia_isolador_vidro_338_1",
+      "dqce_score": 0.002630941802635789,
+      "dqce_logit": -5.937778949737549
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 01-12-2020_DJI_0014_cadeia_isolador_vidro_338_8.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0014_cadeia_isolador_vidro_338_8",
+      "dqce_score": 0.0021825896110385656,
+      "dqce_logit": -6.125058174133301
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 01-12-2020_DJI_0015_cadeia_isolador_vidro_339_8.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0015_cadeia_isolador_vidro_339_8",
+      "dqce_score": 0.9974763989448547,
+      "dqce_logit": 5.979536056518555
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 01-12-2020_DJI_0349_cadeia_isolador_vidro_140_0.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0349_cadeia_isolador_vidro_140_0",
+      "dqce_score": 0.9979377388954163,
+      "dqce_logit": 6.1818766593933105
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 01-12-2020_DJI_0349_cadeia_isolador_vidro_140_7.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0349_cadeia_isolador_vidro_140_7",
+      "dqce_score": 0.0023220034781843424,
+      "dqce_logit": -6.063000202178955
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 01-12-2020_DJI_0350_cadeia_isolador_vidro_141_7.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0350_cadeia_isolador_vidro_141_7",
+      "dqce_score": 0.997951090335846,
+      "dqce_logit": 6.188397407531738
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0327_cadeia_isolador_vidro_879_8.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0327_cadeia_isolador_vidro_879_8",
+      "dqce_score": 0.005285821855068207,
+      "dqce_logit": -5.237427234649658
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0333_cadeia_isolador_vidro_884.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0333_cadeia_isolador_vidro_884",
+      "dqce_score": 0.002190400380641222,
+      "dqce_logit": -6.121478080749512
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0333_cadeia_isolador_vidro_884_1.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0333_cadeia_isolador_vidro_884_1",
+      "dqce_score": 0.9979783892631531,
+      "dqce_logit": 6.201834201812744
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0333_cadeia_isolador_vidro_884_3.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0333_cadeia_isolador_vidro_884_3",
+      "dqce_score": 0.9920502305030823,
+      "dqce_logit": 4.826629161834717
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0333_cadeia_isolador_vidro_884_4.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0333_cadeia_isolador_vidro_884_4",
+      "dqce_score": 0.004316480830311775,
+      "dqce_logit": -5.440989017486572
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0333_cadeia_isolador_vidro_884_6.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0333_cadeia_isolador_vidro_884_6",
+      "dqce_score": 0.9979495406150818,
+      "dqce_logit": 6.187614440917969
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0335_cadeia_isolador_vidro_886.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0335_cadeia_isolador_vidro_886",
+      "dqce_score": 0.0024149639066308737,
+      "dqce_logit": -6.023653030395508
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0335_cadeia_isolador_vidro_886_2.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0335_cadeia_isolador_vidro_886_2",
+      "dqce_score": 0.0026273594703525305,
+      "dqce_logit": -5.939145088195801
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0335_cadeia_isolador_vidro_886_3.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0335_cadeia_isolador_vidro_886_3",
+      "dqce_score": 0.9979615211486816,
+      "dqce_logit": 6.193499565124512
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0336_cadeia_isolador_vidro_887_2.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0336_cadeia_isolador_vidro_887_2",
+      "dqce_score": 0.9977076053619385,
+      "dqce_logit": 6.075888156890869
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0336_cadeia_isolador_vidro_887_3.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0336_cadeia_isolador_vidro_887_3",
+      "dqce_score": 0.002393420087173581,
+      "dqce_logit": -6.032635688781738
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0336_cadeia_isolador_vidro_887_4.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0336_cadeia_isolador_vidro_887_4",
+      "dqce_score": 0.9979017972946167,
+      "dqce_logit": 6.164566993713379
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0336_cadeia_isolador_vidro_887_8.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0336_cadeia_isolador_vidro_887_8",
+      "dqce_score": 0.9979785084724426,
+      "dqce_logit": 6.201897621154785
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0337_cadeia_isolador_vidro_888_2.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0337_cadeia_isolador_vidro_888_2",
+      "dqce_score": 0.997955322265625,
+      "dqce_logit": 6.190500259399414
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0337_cadeia_isolador_vidro_888_3.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0337_cadeia_isolador_vidro_888_3",
+      "dqce_score": 0.9977855682373047,
+      "dqce_logit": 6.110536575317383
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0346_cadeia_isolador_vidro_892.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0346_cadeia_isolador_vidro_892",
+      "dqce_score": 0.0021655766759067774,
+      "dqce_logit": -6.132900714874268
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0346_cadeia_isolador_vidro_892_1.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0346_cadeia_isolador_vidro_892_1",
+      "dqce_score": 0.002635905286297202,
+      "dqce_logit": -5.93588924407959
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0346_cadeia_isolador_vidro_892_3.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0346_cadeia_isolador_vidro_892_3",
+      "dqce_score": 0.9979536533355713,
+      "dqce_logit": 6.189685821533203
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0346_cadeia_isolador_vidro_892_4.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0346_cadeia_isolador_vidro_892_4",
+      "dqce_score": 0.002453040797263384,
+      "dqce_logit": -6.007970809936523
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0346_cadeia_isolador_vidro_892_5.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0346_cadeia_isolador_vidro_892_5",
+      "dqce_score": 0.011584611609578133,
+      "dqce_logit": -4.446425437927246
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0347_cadeia_isolador_vidro_893_1.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0347_cadeia_isolador_vidro_893_1",
+      "dqce_score": 0.9978162050247192,
+      "dqce_logit": 6.124485015869141
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0347_cadeia_isolador_vidro_893_3.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0347_cadeia_isolador_vidro_893_3",
+      "dqce_score": 0.00231479131616652,
+      "dqce_logit": -6.066118240356445
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0347_cadeia_isolador_vidro_893_4.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0347_cadeia_isolador_vidro_893_4",
+      "dqce_score": 0.9979314804077148,
+      "dqce_logit": 6.178832054138184
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0347_cadeia_isolador_vidro_893_6.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0347_cadeia_isolador_vidro_893_6",
+      "dqce_score": 0.9967572093009949,
+      "dqce_logit": 5.7280802726745605
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0360_cadeia_isolador_vidro_910_2.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0360_cadeia_isolador_vidro_910_2",
+      "dqce_score": 0.002185957971960306,
+      "dqce_logit": -6.1235127449035645
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0361_cadeia_isolador_vidro_912_2.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0361_cadeia_isolador_vidro_912_2",
+      "dqce_score": 0.05231849104166031,
+      "dqce_logit": -2.8966686725616455
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0362_cadeia_isolador_vidro_913.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0362_cadeia_isolador_vidro_913",
+      "dqce_score": 0.002206347184255719,
+      "dqce_logit": -6.114208221435547
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0365_cadeia_isolador_vidro_917_0.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0365_cadeia_isolador_vidro_917_0",
+      "dqce_score": 0.9911164045333862,
+      "dqce_logit": 4.714629173278809
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0365_cadeia_isolador_vidro_917_1.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0365_cadeia_isolador_vidro_917_1",
+      "dqce_score": 0.9979608058929443,
+      "dqce_logit": 6.193172454833984
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0366_cadeia_isolador_vidro_918_3.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0366_cadeia_isolador_vidro_918_3",
+      "dqce_score": 0.0021645515225827694,
+      "dqce_logit": -6.13337516784668
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0366_cadeia_isolador_vidro_918_6.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0366_cadeia_isolador_vidro_918_6",
+      "dqce_score": 0.9979477524757385,
+      "dqce_logit": 6.186737060546875
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0367_cadeia_isolador_vidro_921_0.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0367_cadeia_isolador_vidro_921_0",
+      "dqce_score": 0.9976825714111328,
+      "dqce_logit": 6.064962387084961
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0402_cadeia_isolador_vidro_791_0.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0402_cadeia_isolador_vidro_791_0",
+      "dqce_score": 0.003263285383582115,
+      "dqce_logit": -5.721752166748047
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0402_cadeia_isolador_vidro_791_3.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0402_cadeia_isolador_vidro_791_3",
+      "dqce_score": 0.9979233145713806,
+      "dqce_logit": 6.174892425537109
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0402_cadeia_isolador_vidro_791_6.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0402_cadeia_isolador_vidro_791_6",
+      "dqce_score": 0.002318770159035921,
+      "dqce_logit": -6.064396858215332
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0403_cadeia_isolador_vidro_792.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0403_cadeia_isolador_vidro_792",
+      "dqce_score": 0.9977549910545349,
+      "dqce_logit": 6.096814155578613
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0403_cadeia_isolador_vidro_792_3.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0403_cadeia_isolador_vidro_792_3",
+      "dqce_score": 0.0024443052243441343,
+      "dqce_logit": -6.011547088623047
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0556_cadeia_isolador_vidro_697_3.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0556_cadeia_isolador_vidro_697_3",
+      "dqce_score": 0.997829258441925,
+      "dqce_logit": 6.130495071411133
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0558_cadeia_isolador_vidro_699_3.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0558_cadeia_isolador_vidro_699_3",
+      "dqce_score": 0.9979355335235596,
+      "dqce_logit": 6.180819511413574
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0558_cadeia_isolador_vidro_699_7.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0558_cadeia_isolador_vidro_699_7",
+      "dqce_score": 0.9979530572891235,
+      "dqce_logit": 6.1893768310546875
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 04-12-2020_DJI_0721_cadeia_isolador_vidro_1191.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 04-12-2020_DJI_0721_cadeia_isolador_vidro_1191",
+      "dqce_score": 0.9979642629623413,
+      "dqce_logit": 6.194821357727051
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 04-12-2020_DJI_0722_cadeia_isolador_vidro_1192_3.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 04-12-2020_DJI_0722_cadeia_isolador_vidro_1192_3",
+      "dqce_score": 0.02511635236442089,
+      "dqce_logit": -3.658798933029175
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 04-12-2020_DJI_0722_cadeia_isolador_vidro_1192_4.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 04-12-2020_DJI_0722_cadeia_isolador_vidro_1192_4",
+      "dqce_score": 0.0023989412002265453,
+      "dqce_logit": -6.030325889587402
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 04-12-2020_DJI_0722_cadeia_isolador_vidro_1192_8.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 04-12-2020_DJI_0722_cadeia_isolador_vidro_1192_8",
+      "dqce_score": 0.9979390501976013,
+      "dqce_logit": 6.182529449462891
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 07-12-2020_DJI_0182_cadeia_isolador_vidro_1321_3.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 07-12-2020_DJI_0182_cadeia_isolador_vidro_1321_3",
+      "dqce_score": 0.0021901316940784454,
+      "dqce_logit": -6.121601104736328
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 07-12-2020_DJI_0182_cadeia_isolador_vidro_1321_5.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 07-12-2020_DJI_0182_cadeia_isolador_vidro_1321_5",
+      "dqce_score": 0.0022400899324566126,
+      "dqce_logit": -6.098996639251709
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 07-12-2020_DJI_0193_cadeia_isolador_vidro_1327.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 07-12-2020_DJI_0193_cadeia_isolador_vidro_1327",
+      "dqce_score": 0.002246749121695757,
+      "dqce_logit": -6.09602165222168
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 07-12-2020_DJI_0193_cadeia_isolador_vidro_1327_2.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 07-12-2020_DJI_0193_cadeia_isolador_vidro_1327_2",
+      "dqce_score": 0.9975493550300598,
+      "dqce_logit": 6.008951187133789
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 07-12-2020_DJI_0193_cadeia_isolador_vidro_1327_7.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 07-12-2020_DJI_0193_cadeia_isolador_vidro_1327_7",
+      "dqce_score": 0.002355127828195691,
+      "dqce_logit": -6.048802375793457
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 07-12-2020_DJI_0194_cadeia_isolador_vidro_1328_2.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 07-12-2020_DJI_0194_cadeia_isolador_vidro_1328_2",
+      "dqce_score": 0.002219277899712324,
+      "dqce_logit": -6.108351707458496
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 07-12-2020_DJI_0194_cadeia_isolador_vidro_1328_3.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 07-12-2020_DJI_0194_cadeia_isolador_vidro_1328_3",
+      "dqce_score": 0.5030130743980408,
+      "dqce_logit": 0.012052515521645546
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 08-12-2020_DJI_0375_cadeia_isolador_vidro_1419_0.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 08-12-2020_DJI_0375_cadeia_isolador_vidro_1419_0",
+      "dqce_score": 0.9977971315383911,
+      "dqce_logit": 6.115771293640137
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 08-12-2020_DJI_0375_cadeia_isolador_vidro_1419_2.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 08-12-2020_DJI_0375_cadeia_isolador_vidro_1419_2",
+      "dqce_score": 0.997968852519989,
+      "dqce_logit": 6.197135925292969
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 08-12-2020_DJI_0376_cadeia_isolador_vidro_1420_2.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 08-12-2020_DJI_0376_cadeia_isolador_vidro_1420_2",
+      "dqce_score": 0.9979221224784851,
+      "dqce_logit": 6.174300193786621
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 08-12-2020_DJI_0379_cadeia_isolador_vidro_1423_0.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 08-12-2020_DJI_0379_cadeia_isolador_vidro_1423_0",
+      "dqce_score": 0.9974429607391357,
+      "dqce_logit": 5.966335773468018
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 08-12-2020_DJI_0379_cadeia_isolador_vidro_1423_3.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 08-12-2020_DJI_0379_cadeia_isolador_vidro_1423_3",
+      "dqce_score": 0.9979069232940674,
+      "dqce_logit": 6.167029857635498
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 16-11-2020_DJI_0013_cadeia_isolador_vidro_1494_0.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 16-11-2020_DJI_0013_cadeia_isolador_vidro_1494_0",
+      "dqce_score": 0.9975493550300598,
+      "dqce_logit": 6.008947372436523
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 16-11-2020_DJI_0024_cadeia_isolador_vidro_1502_3.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 16-11-2020_DJI_0024_cadeia_isolador_vidro_1502_3",
+      "dqce_score": 0.0035425254609435797,
+      "dqce_logit": -5.639366626739502
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 16-11-2020_DJI_0024_cadeia_isolador_vidro_1502_5.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 16-11-2020_DJI_0024_cadeia_isolador_vidro_1502_5",
+      "dqce_score": 0.002659577876329422,
+      "dqce_logit": -5.926924705505371
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 16-11-2020_DJI_0031_cadeia_isolador_vidro_1503.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 16-11-2020_DJI_0031_cadeia_isolador_vidro_1503",
+      "dqce_score": 0.0023301912005990744,
+      "dqce_logit": -6.05947208404541
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 16-11-2020_DJI_0031_cadeia_isolador_vidro_1503_1.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 16-11-2020_DJI_0031_cadeia_isolador_vidro_1503_1",
+      "dqce_score": 0.9958739876747131,
+      "dqce_logit": 5.486319541931152
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 19-10-2020_DJI_0061_cadeia_isolador_vidro_0.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 19-10-2020_DJI_0061_cadeia_isolador_vidro_0",
+      "dqce_score": 0.9979134202003479,
+      "dqce_logit": 6.170146942138672
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 19-10-2020_DJI_0061_cadeia_isolador_vidro_0_1.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 19-10-2020_DJI_0061_cadeia_isolador_vidro_0_1",
+      "dqce_score": 0.002650486771017313,
+      "dqce_logit": -5.930357933044434
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 19-10-2020_DJI_0061_cadeia_isolador_vidro_0_6.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 19-10-2020_DJI_0061_cadeia_isolador_vidro_0_6",
+      "dqce_score": 0.9970659613609314,
+      "dqce_logit": 5.82843542098999
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 19-10-2020_DJI_0061_cadeia_isolador_vidro_0_8.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 19-10-2020_DJI_0061_cadeia_isolador_vidro_0_8",
+      "dqce_score": 0.0022751442156732082,
+      "dqce_logit": -6.083434104919434
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 19-10-2020_DJI_0063_cadeia_isolador_vidro_5_6.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 19-10-2020_DJI_0063_cadeia_isolador_vidro_5_6",
+      "dqce_score": 0.996170699596405,
+      "dqce_logit": 5.561242580413818
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 19-10-2020_DJI_0064_cadeia_isolador_vidro_6_7.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 19-10-2020_DJI_0064_cadeia_isolador_vidro_6_7",
+      "dqce_score": 0.9974817633628845,
+      "dqce_logit": 5.98167085647583
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 19-10-2020_DJI_0067_cadeia_isolador_vidro_12_6.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 19-10-2020_DJI_0067_cadeia_isolador_vidro_12_6",
+      "dqce_score": 0.002410082146525383,
+      "dqce_logit": -6.025681495666504
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 19-10-2020_DJI_0067_cadeia_isolador_vidro_19_3.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 19-10-2020_DJI_0067_cadeia_isolador_vidro_19_3",
+      "dqce_score": 0.005220158025622368,
+      "dqce_logit": -5.249993801116943
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 19-10-2020_DJI_0067_cadeia_isolador_vidro_19_5.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 19-10-2020_DJI_0067_cadeia_isolador_vidro_19_5",
+      "dqce_score": 0.002646129112690687,
+      "dqce_logit": -5.932007789611816
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 19-10-2020_DJI_0068_cadeia_isolador_vidro_20_1.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 19-10-2020_DJI_0068_cadeia_isolador_vidro_20_1",
+      "dqce_score": 0.9978539347648621,
+      "dqce_logit": 6.141956806182861
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 19-10-2020_DJI_0074_cadeia_isolador_vidro_25.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 19-10-2020_DJI_0074_cadeia_isolador_vidro_25",
+      "dqce_score": 0.997930645942688,
+      "dqce_logit": 6.178428649902344
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 21-10-2020_DJI_0536_cadeia_isolador_vidro_1613_4.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 21-10-2020_DJI_0536_cadeia_isolador_vidro_1613_4",
+      "dqce_score": 0.9979356527328491,
+      "dqce_logit": 6.180879592895508
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 21-10-2020_DJI_0536_cadeia_isolador_vidro_1613_5.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 21-10-2020_DJI_0536_cadeia_isolador_vidro_1613_5",
+      "dqce_score": 0.003027909668162465,
+      "dqce_logit": -5.796850204467773
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 21-10-2020_DJI_0538_cadeia_isolador_vidro_1616.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 21-10-2020_DJI_0538_cadeia_isolador_vidro_1616",
+      "dqce_score": 0.0021888355258852243,
+      "dqce_logit": -6.122194290161133
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 21-10-2020_DJI_0540_cadeia_isolador_vidro_1619.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 21-10-2020_DJI_0540_cadeia_isolador_vidro_1619",
+      "dqce_score": 0.0021394130308181047,
+      "dqce_logit": -6.145081996917725
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 21-10-2020_DJI_0540_cadeia_isolador_vidro_1619_6.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 21-10-2020_DJI_0540_cadeia_isolador_vidro_1619_6",
+      "dqce_score": 0.0022280015982687473,
+      "dqce_logit": -6.104419708251953
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 21-10-2020_DJI_0555_cadeia_isolador_vidro_1625.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 21-10-2020_DJI_0555_cadeia_isolador_vidro_1625",
+      "dqce_score": 0.9979421496391296,
+      "dqce_logit": 6.184067726135254
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 21-10-2020_DJI_0555_cadeia_isolador_vidro_1626_5.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 21-10-2020_DJI_0555_cadeia_isolador_vidro_1626_5",
+      "dqce_score": 0.9979552030563354,
+      "dqce_logit": 6.190427780151367
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 21-10-2020_DJI_0555_cadeia_isolador_vidro_1626_6.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 21-10-2020_DJI_0555_cadeia_isolador_vidro_1626_6",
+      "dqce_score": 0.9978067278862,
+      "dqce_logit": 6.120168685913086
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 21-10-2020_DJI_0556_cadeia_isolador_vidro_1627_2.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 21-10-2020_DJI_0556_cadeia_isolador_vidro_1627_2",
+      "dqce_score": 0.0021550776436924934,
+      "dqce_logit": -6.137771129608154
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 21-10-2020_DJI_0556_cadeia_isolador_vidro_1627_5.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 21-10-2020_DJI_0556_cadeia_isolador_vidro_1627_5",
+      "dqce_score": 0.0026422308292239904,
+      "dqce_logit": -5.933485984802246
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 21-10-2020_DJI_0556_cadeia_isolador_vidro_1627_6.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 21-10-2020_DJI_0556_cadeia_isolador_vidro_1627_6",
+      "dqce_score": 0.0025712763890624046,
+      "dqce_logit": -5.96077823638916
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 21-10-2020_DJI_0557_cadeia_isolador_vidro_1629.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 21-10-2020_DJI_0557_cadeia_isolador_vidro_1629",
+      "dqce_score": 0.09637338668107986,
+      "dqce_logit": -2.2381861209869385
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 21-10-2020_DJI_0566_cadeia_isolador_vidro_1638_2.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 21-10-2020_DJI_0566_cadeia_isolador_vidro_1638_2",
+      "dqce_score": 0.9893354773521423,
+      "dqce_logit": 4.530104637145996
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 21-10-2020_DJI_0566_cadeia_isolador_vidro_1639_4.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 21-10-2020_DJI_0566_cadeia_isolador_vidro_1639_4",
+      "dqce_score": 0.9963322281837463,
+      "dqce_logit": 5.604473114013672
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 21-10-2020_DJI_0626_cadeia_isolador_vidro_1543_2.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 21-10-2020_DJI_0626_cadeia_isolador_vidro_1543_2",
+      "dqce_score": 0.997958779335022,
+      "dqce_logit": 6.192150115966797
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 21-10-2020_DJI_0626_cadeia_isolador_vidro_1543_7.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 21-10-2020_DJI_0626_cadeia_isolador_vidro_1543_7",
+      "dqce_score": 0.9977717995643616,
+      "dqce_logit": 6.104334831237793
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 21-10-2020_DJI_0628_cadeia_isolador_vidro_1545_3.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 21-10-2020_DJI_0628_cadeia_isolador_vidro_1545_3",
+      "dqce_score": 0.9971599578857422,
+      "dqce_logit": 5.861094951629639
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 25-11-2020_DJI_0196_cadeia_isolador_vidro_1863_1.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 25-11-2020_DJI_0196_cadeia_isolador_vidro_1863_1",
+      "dqce_score": 0.002299620071426034,
+      "dqce_logit": -6.072709083557129
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 25-11-2020_DJI_0196_cadeia_isolador_vidro_1863_2.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 25-11-2020_DJI_0196_cadeia_isolador_vidro_1863_2",
+      "dqce_score": 0.0038695139810442924,
+      "dqce_logit": -5.5507493019104
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 25-11-2020_DJI_0196_cadeia_isolador_vidro_1863_4.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 25-11-2020_DJI_0196_cadeia_isolador_vidro_1863_4",
+      "dqce_score": 0.9978331923484802,
+      "dqce_logit": 6.132316589355469
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 25-11-2020_DJI_0196_cadeia_isolador_vidro_1863_5.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 25-11-2020_DJI_0196_cadeia_isolador_vidro_1863_5",
+      "dqce_score": 0.002429804066196084,
+      "dqce_logit": -6.01751184463501
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 25-11-2020_DJI_0448_cadeia_isolador_vidro_1774_4.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 25-11-2020_DJI_0448_cadeia_isolador_vidro_1774_4",
+      "dqce_score": 0.002192867686972022,
+      "dqce_logit": -6.120349884033203
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 25-11-2020_DJI_0449_cadeia_isolador_vidro_1775_2.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 25-11-2020_DJI_0449_cadeia_isolador_vidro_1775_2",
+      "dqce_score": 0.00226196413859725,
+      "dqce_logit": -6.08925724029541
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 25-11-2020_DJI_0451_cadeia_isolador_vidro_1780_0.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 25-11-2020_DJI_0451_cadeia_isolador_vidro_1780_0",
+      "dqce_score": 0.0021427820902317762,
+      "dqce_logit": -6.143505096435547
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 27-11-2020_DJI_0104_cadeia_isolador_vidro_2586.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0104_cadeia_isolador_vidro_2586",
+      "dqce_score": 0.994384765625,
+      "dqce_logit": 5.176639080047607
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 27-11-2020_DJI_0104_cadeia_isolador_vidro_2586_1.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0104_cadeia_isolador_vidro_2586_1",
+      "dqce_score": 0.0045388368889689445,
+      "dqce_logit": -5.390535354614258
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 27-11-2020_DJI_0104_cadeia_isolador_vidro_2586_3.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0104_cadeia_isolador_vidro_2586_3",
+      "dqce_score": 0.9969578981399536,
+      "dqce_logit": 5.792139530181885
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 30-11-2020_DJI_0144_cadeia_isolador_vidro_2922.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0144_cadeia_isolador_vidro_2922",
+      "dqce_score": 0.0030504106543958187,
+      "dqce_logit": -5.789423942565918
+    },
+    {
+      "relative_path": "glass-insulator/missing-cap/Fotos 30-11-2020_DJI_0144_cadeia_isolador_vidro_2922_3.jpg",
+      "component": "glass-insulator",
+      "condition": "missing-cap",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0144_cadeia_isolador_vidro_2922_3",
+      "dqce_score": 0.002228103345260024,
+      "dqce_logit": -6.104373931884766
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/08-06-2021_DJI_0089_322_3.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "08-06-2021_DJI_0089_322_3",
+      "dqce_score": 0.9975453019142151,
+      "dqce_logit": 6.0072855949401855
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/08-06-2021_DJI_0285_392_4.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "08-06-2021_DJI_0285_392_4",
+      "dqce_score": 0.9978182315826416,
+      "dqce_logit": 6.125442981719971
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/08-06-2021_DJI_0285_392_8.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "08-06-2021_DJI_0285_392_8",
+      "dqce_score": 0.9978929162025452,
+      "dqce_logit": 6.160338401794434
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/10-06-2021_DJI_0244_649_6.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "10-06-2021_DJI_0244_649_6",
+      "dqce_score": 0.997861921787262,
+      "dqce_logit": 6.145707130432129
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/10-06-2021_DJI_0244_649_7.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "10-06-2021_DJI_0244_649_7",
+      "dqce_score": 0.9978675842285156,
+      "dqce_logit": 6.1483588218688965
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/10-06-2021_DJI_0244_649_8.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "10-06-2021_DJI_0244_649_8",
+      "dqce_score": 0.9978368878364563,
+      "dqce_logit": 6.13401460647583
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/10-06-2021_DJI_0270_657_0.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "10-06-2021_DJI_0270_657_0",
+      "dqce_score": 0.997956395149231,
+      "dqce_logit": 6.190975189208984
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/10-06-2021_DJI_0270_657_2.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "10-06-2021_DJI_0270_657_2",
+      "dqce_score": 0.9976744055747986,
+      "dqce_logit": 6.061433792114258
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/10-06-2021_DJI_0271_658_8.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "10-06-2021_DJI_0271_658_8",
+      "dqce_score": 0.9979508519172668,
+      "dqce_logit": 6.188296318054199
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/11-06-2021_DJI_0121_4_5.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "11-06-2021_DJI_0121_4_5",
+      "dqce_score": 0.997955322265625,
+      "dqce_logit": 6.1905035972595215
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/11-06-2021_DJI_0121_4_6.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "11-06-2021_DJI_0121_4_6",
+      "dqce_score": 0.9979134202003479,
+      "dqce_logit": 6.170160293579102
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/11-06-2021_DJI_0132_6_1.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "11-06-2021_DJI_0132_6_1",
+      "dqce_score": 0.9979362487792969,
+      "dqce_logit": 6.181135654449463
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/15-06-2021_DJI_0016_718_3.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "15-06-2021_DJI_0016_718_3",
+      "dqce_score": 0.9979140162467957,
+      "dqce_logit": 6.170449256896973
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/15-06-2021_DJI_0016_719_2.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "15-06-2021_DJI_0016_719_2",
+      "dqce_score": 0.9978989362716675,
+      "dqce_logit": 6.163227558135986
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/15-06-2021_DJI_0016_719_7.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "15-06-2021_DJI_0016_719_7",
+      "dqce_score": 0.04567285254597664,
+      "dqce_logit": -3.0395023822784424
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/15-06-2021_DJI_0016_719_8.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "15-06-2021_DJI_0016_719_8",
+      "dqce_score": 0.9949814677238464,
+      "dqce_logit": 5.289576530456543
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/15-06-2021_DJI_0044_726_6.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "15-06-2021_DJI_0044_726_6",
+      "dqce_score": 0.9979522228240967,
+      "dqce_logit": 6.188985347747803
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 02-12-2020_DJI_0492_vari_grip_56_3.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 02-12-2020_DJI_0492_vari_grip_56_3",
+      "dqce_score": 0.9976885318756104,
+      "dqce_logit": 6.067578315734863
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 02-12-2020_DJI_0492_vari_grip_56_4.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 02-12-2020_DJI_0492_vari_grip_56_4",
+      "dqce_score": 0.9979192614555359,
+      "dqce_logit": 6.172945022583008
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 02-12-2020_DJI_0492_vari_grip_56_6.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 02-12-2020_DJI_0492_vari_grip_56_6",
+      "dqce_score": 0.005396954249590635,
+      "dqce_logit": -5.216508865356445
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 02-12-2020_DJI_0492_vari_grip_57_2.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 02-12-2020_DJI_0492_vari_grip_57_2",
+      "dqce_score": 0.9979204535484314,
+      "dqce_logit": 6.173497200012207
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 02-12-2020_DJI_0492_vari_grip_57_4.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 02-12-2020_DJI_0492_vari_grip_57_4",
+      "dqce_score": 0.9978150129318237,
+      "dqce_logit": 6.12393856048584
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 02-12-2020_DJI_0492_vari_grip_57_5.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 02-12-2020_DJI_0492_vari_grip_57_5",
+      "dqce_score": 0.9979246854782104,
+      "dqce_logit": 6.175591945648193
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 17-11-2020_DJI_0269_vari_grip_485_2.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 17-11-2020_DJI_0269_vari_grip_485_2",
+      "dqce_score": 0.9979705214500427,
+      "dqce_logit": 6.1979475021362305
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 17-11-2020_DJI_0303_vari_grip_479_3.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 17-11-2020_DJI_0303_vari_grip_479_3",
+      "dqce_score": 0.9978548884391785,
+      "dqce_logit": 6.1424078941345215
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 18-11-2020_DJI_0209_vari_grip_530_2.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 18-11-2020_DJI_0209_vari_grip_530_2",
+      "dqce_score": 0.9976229071617126,
+      "dqce_logit": 6.039481163024902
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 19-11-2020_DJI_0140_vari_grip_571_1.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 19-11-2020_DJI_0140_vari_grip_571_1",
+      "dqce_score": 0.9979660511016846,
+      "dqce_logit": 6.195699691772461
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 19-11-2020_DJI_0149_vari_grip_573_0.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 19-11-2020_DJI_0149_vari_grip_573_0",
+      "dqce_score": 0.9976621866226196,
+      "dqce_logit": 6.056180000305176
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 19-11-2020_DJI_0149_vari_grip_573_1.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 19-11-2020_DJI_0149_vari_grip_573_1",
+      "dqce_score": 0.9966614246368408,
+      "dqce_logit": 5.6988525390625
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 19-11-2020_DJI_0149_vari_grip_573_8.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 19-11-2020_DJI_0149_vari_grip_573_8",
+      "dqce_score": 0.9979004859924316,
+      "dqce_logit": 6.163971900939941
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 19-11-2020_DJI_0150_vari_grip_574_6.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 19-11-2020_DJI_0150_vari_grip_574_6",
+      "dqce_score": 0.9979414343833923,
+      "dqce_logit": 6.183671951293945
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 19-11-2020_DJI_0150_vari_grip_575_2.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 19-11-2020_DJI_0150_vari_grip_575_2",
+      "dqce_score": 0.996177077293396,
+      "dqce_logit": 5.562912940979004
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 19-11-2020_DJI_0150_vari_grip_575_8.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 19-11-2020_DJI_0150_vari_grip_575_8",
+      "dqce_score": 0.9978197813034058,
+      "dqce_logit": 6.12613582611084
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 19-11-2020_DJI_0151_vari_grip_577_1.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 19-11-2020_DJI_0151_vari_grip_577_1",
+      "dqce_score": 0.9975981116294861,
+      "dqce_logit": 6.029095649719238
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 19-11-2020_DJI_0151_vari_grip_577_7.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 19-11-2020_DJI_0151_vari_grip_577_7",
+      "dqce_score": 0.9979548454284668,
+      "dqce_logit": 6.19024133682251
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 19-11-2020_DJI_0151_vari_grip_577_8.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 19-11-2020_DJI_0151_vari_grip_577_8",
+      "dqce_score": 0.9979525804519653,
+      "dqce_logit": 6.18915319442749
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 20-11-2020_DJI_0210_vari_grip_683_0.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 20-11-2020_DJI_0210_vari_grip_683_0",
+      "dqce_score": 0.9979731440544128,
+      "dqce_logit": 6.199262619018555
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 20-11-2020_DJI_0210_vari_grip_683_5.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 20-11-2020_DJI_0210_vari_grip_683_5",
+      "dqce_score": 0.003942915238440037,
+      "dqce_logit": -5.53188419342041
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 20-11-2020_DJI_0210_vari_grip_683_6.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 20-11-2020_DJI_0210_vari_grip_683_6",
+      "dqce_score": 0.9323693513870239,
+      "dqce_logit": 2.6236677169799805
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 23-11-2020_DJI_0279_vari_grip_768_7.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 23-11-2020_DJI_0279_vari_grip_768_7",
+      "dqce_score": 0.9978476762771606,
+      "dqce_logit": 6.139034271240234
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 23-11-2020_DJI_0279_vari_grip_768_8.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 23-11-2020_DJI_0279_vari_grip_768_8",
+      "dqce_score": 0.9978413581848145,
+      "dqce_logit": 6.136141300201416
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 25-11-2020_DJI_0563_vari_grip_841_5.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 25-11-2020_DJI_0563_vari_grip_841_5",
+      "dqce_score": 0.9976609945297241,
+      "dqce_logit": 6.0556640625
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 25-11-2020_DJI_0563_vari_grip_841_6.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 25-11-2020_DJI_0563_vari_grip_841_6",
+      "dqce_score": 0.9979540109634399,
+      "dqce_logit": 6.189821243286133
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 25-11-2020_DJI_0564_vari_grip_843_0.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 25-11-2020_DJI_0564_vari_grip_843_0",
+      "dqce_score": 0.9979561567306519,
+      "dqce_logit": 6.190881729125977
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 25-11-2020_DJI_0586_vari_grip_845_2.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 25-11-2020_DJI_0586_vari_grip_845_2",
+      "dqce_score": 0.002527887001633644,
+      "dqce_logit": -5.977840423583984
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 25-11-2020_DJI_0588_vari_grip_847_3.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 25-11-2020_DJI_0588_vari_grip_847_3",
+      "dqce_score": 0.9979584217071533,
+      "dqce_logit": 6.191977500915527
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 26-11-2020_DJI_0214_vari_grip_906.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 26-11-2020_DJI_0214_vari_grip_906",
+      "dqce_score": 0.9979571104049683,
+      "dqce_logit": 6.191359043121338
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 26-11-2020_DJI_0214_vari_grip_906_3.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 26-11-2020_DJI_0214_vari_grip_906_3",
+      "dqce_score": 0.9978680610656738,
+      "dqce_logit": 6.148575782775879
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 26-11-2020_DJI_0215_vari_grip_908_0.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 26-11-2020_DJI_0215_vari_grip_908_0",
+      "dqce_score": 0.9978153705596924,
+      "dqce_logit": 6.124155044555664
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 26-11-2020_DJI_0215_vari_grip_908_2.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 26-11-2020_DJI_0215_vari_grip_908_2",
+      "dqce_score": 0.9979543685913086,
+      "dqce_logit": 6.190006256103516
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 26-11-2020_DJI_0262_vari_grip_910.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 26-11-2020_DJI_0262_vari_grip_910",
+      "dqce_score": 0.9979301691055298,
+      "dqce_logit": 6.178244113922119
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 27-11-2020_DJI_0491_vari_grip_933_5.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0491_vari_grip_933_5",
+      "dqce_score": 0.994051992893219,
+      "dqce_logit": 5.118728160858154
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 27-11-2020_DJI_0491_vari_grip_933_6.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0491_vari_grip_933_6",
+      "dqce_score": 0.99787437915802,
+      "dqce_logit": 6.151537895202637
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 27-11-2020_DJI_0566_vari_grip_924_7.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0566_vari_grip_924_7",
+      "dqce_score": 0.9975572824478149,
+      "dqce_logit": 6.0122294425964355
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 27-11-2020_DJI_0566_vari_grip_925_5.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0566_vari_grip_925_5",
+      "dqce_score": 0.9979593753814697,
+      "dqce_logit": 6.192443370819092
+    },
+    {
+      "relative_path": "vari-grip/bird-nest/Fotos 27-11-2020_DJI_0566_vari_grip_925_8.jpg",
+      "component": "vari-grip",
+      "condition": "bird-nest",
+      "label": 2,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0566_vari_grip_925_8",
+      "dqce_score": 0.9921046495437622,
+      "dqce_logit": 4.833556175231934
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 01-12-2020_DJI_0078_vari_grip_48.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0078_vari_grip_48",
+      "dqce_score": 0.997965931892395,
+      "dqce_logit": 6.195672988891602
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 01-12-2020_DJI_0078_vari_grip_49.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0078_vari_grip_49",
+      "dqce_score": 0.9971730709075928,
+      "dqce_logit": 5.86574649810791
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 01-12-2020_DJI_0079_vari_grip_50.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0079_vari_grip_50",
+      "dqce_score": 0.002694597002118826,
+      "dqce_logit": -5.913808345794678
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 01-12-2020_DJI_0139_vari_grip_45.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0139_vari_grip_45",
+      "dqce_score": 0.04215414077043533,
+      "dqce_logit": -3.123353958129883
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 01-12-2020_DJI_0342_vari_grip_32.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0342_vari_grip_32",
+      "dqce_score": 0.9970163106918335,
+      "dqce_logit": 5.811595916748047
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 01-12-2020_DJI_0512_vari_grip_23.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 01-12-2020_DJI_0512_vari_grip_23",
+      "dqce_score": 0.9979164004325867,
+      "dqce_logit": 6.17156982421875
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 02-12-2020_DJI_0021_vari_grip_97.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 02-12-2020_DJI_0021_vari_grip_97",
+      "dqce_score": 0.005626816768199205,
+      "dqce_logit": -5.1745686531066895
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 02-12-2020_DJI_0075_vari_grip_91.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 02-12-2020_DJI_0075_vari_grip_91",
+      "dqce_score": 0.6912376880645752,
+      "dqce_logit": 0.8059118986129761
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 02-12-2020_DJI_0190_vari_grip_80.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 02-12-2020_DJI_0190_vari_grip_80",
+      "dqce_score": 0.9979637861251831,
+      "dqce_logit": 6.194631099700928
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 03-12-2020_DJI_0086_vari_grip_132.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0086_vari_grip_132",
+      "dqce_score": 0.00227888161316514,
+      "dqce_logit": -6.081789016723633
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 03-12-2020_DJI_0456_vari_grip_107.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0456_vari_grip_107",
+      "dqce_score": 0.9978012442588806,
+      "dqce_logit": 6.1176838874816895
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 03-12-2020_DJI_0514_vari_grip_103.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 03-12-2020_DJI_0514_vari_grip_103",
+      "dqce_score": 0.9965457320213318,
+      "dqce_logit": 5.664671897888184
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 04-12-2020_DJI_0610_vari_grip_174.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 04-12-2020_DJI_0610_vari_grip_174",
+      "dqce_score": 0.0022885522339493036,
+      "dqce_logit": -6.077544689178467
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 04-12-2020_DJI_0659_vari_grip_171.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 04-12-2020_DJI_0659_vari_grip_171",
+      "dqce_score": 0.9975289702415466,
+      "dqce_logit": 6.000615119934082
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 04-12-2020_DJI_0717_vari_grip_166.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 04-12-2020_DJI_0717_vari_grip_166",
+      "dqce_score": 0.23693618178367615,
+      "dqce_logit": -1.169550895690918
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 04-12-2020_DJI_0718_vari_grip_168.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 04-12-2020_DJI_0718_vari_grip_168",
+      "dqce_score": 0.002257896587252617,
+      "dqce_logit": -6.091061115264893
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 04-12-2020_DJI_0761_vari_grip_161.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 04-12-2020_DJI_0761_vari_grip_161",
+      "dqce_score": 0.9976243376731873,
+      "dqce_logit": 6.04010009765625
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 04-12-2020_DJI_0762_vari_grip_164.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 04-12-2020_DJI_0762_vari_grip_164",
+      "dqce_score": 0.010175385512411594,
+      "dqce_logit": -4.577556133270264
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 04-12-2020_DJI_0903_vari_grip_151.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 04-12-2020_DJI_0903_vari_grip_151",
+      "dqce_score": 0.9959011673927307,
+      "dqce_logit": 5.492948532104492
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 04-12-2020_DJI_0950_vari_grip_142.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 04-12-2020_DJI_0950_vari_grip_142",
+      "dqce_score": 0.0026688906364142895,
+      "dqce_logit": -5.923419952392578
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 04-12-2020_DJI_1000 (2)_vari_grip_141.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 04-12-2020_DJI_1000 (2)_vari_grip_141",
+      "dqce_score": 0.9979342222213745,
+      "dqce_logit": 6.180197238922119
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 07-12-2020_DJI_0059_vari_grip_192.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 07-12-2020_DJI_0059_vari_grip_192",
+      "dqce_score": 0.0024541765451431274,
+      "dqce_logit": -6.007506847381592
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 07-12-2020_DJI_0060_vari_grip_194.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 07-12-2020_DJI_0060_vari_grip_194",
+      "dqce_score": 0.9924031496047974,
+      "dqce_logit": 4.872391223907471
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 07-12-2020_DJI_0100_vari_grip_191.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 07-12-2020_DJI_0100_vari_grip_191",
+      "dqce_score": 0.9979329109191895,
+      "dqce_logit": 6.179542541503906
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 08-12-2020_DJI_0451_vari_grip_223.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 08-12-2020_DJI_0451_vari_grip_223",
+      "dqce_score": 0.0022165204863995314,
+      "dqce_logit": -6.109597682952881
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 08-12-2020_DJI_0452_vari_grip_226.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 08-12-2020_DJI_0452_vari_grip_226",
+      "dqce_score": 0.5850276350975037,
+      "dqce_logit": 0.3434472978115082
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 08-12-2020_DJI_0574_vari_grip_213.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 08-12-2020_DJI_0574_vari_grip_213",
+      "dqce_score": 0.9977090358734131,
+      "dqce_logit": 6.076470375061035
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 09-12-2020_DJI_0017_vari_grip_269.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 09-12-2020_DJI_0017_vari_grip_269",
+      "dqce_score": 0.9966753721237183,
+      "dqce_logit": 5.703068256378174
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 09-12-2020_DJI_0143_vari_grip_249.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 09-12-2020_DJI_0143_vari_grip_249",
+      "dqce_score": 0.99797123670578,
+      "dqce_logit": 6.198317050933838
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 09-12-2020_DJI_0271_vari_grip_241.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 09-12-2020_DJI_0271_vari_grip_241",
+      "dqce_score": 0.0021784480195492506,
+      "dqce_logit": -6.126961708068848
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 10-12-2020_DJI_0018_vari_grip_324.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 10-12-2020_DJI_0018_vari_grip_324",
+      "dqce_score": 0.002539273351430893,
+      "dqce_logit": -5.973334789276123
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 10-12-2020_DJI_0019_vari_grip_326.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 10-12-2020_DJI_0019_vari_grip_326",
+      "dqce_score": 0.905002772808075,
+      "dqce_logit": 2.2540900707244873
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 10-12-2020_DJI_0021_vari_grip_330.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 10-12-2020_DJI_0021_vari_grip_330",
+      "dqce_score": 0.9977017045021057,
+      "dqce_logit": 6.073271751403809
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 10-12-2020_DJI_0024_vari_grip_332.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 10-12-2020_DJI_0024_vari_grip_332",
+      "dqce_score": 0.997837245464325,
+      "dqce_logit": 6.1341705322265625
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 10-12-2020_DJI_0062_vari_grip_315.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 10-12-2020_DJI_0062_vari_grip_315",
+      "dqce_score": 0.9964129328727722,
+      "dqce_logit": 5.626832485198975
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 10-12-2020_DJI_0142_vari_grip_304.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 10-12-2020_DJI_0142_vari_grip_304",
+      "dqce_score": 0.9933189153671265,
+      "dqce_logit": 5.001774787902832
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 10-12-2020_DJI_0181_vari_grip_293.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 10-12-2020_DJI_0181_vari_grip_293",
+      "dqce_score": 0.0022609548177570105,
+      "dqce_logit": -6.089704513549805
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 10-12-2020_DJI_0258_vari_grip_282.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 10-12-2020_DJI_0258_vari_grip_282",
+      "dqce_score": 0.002220414113253355,
+      "dqce_logit": -6.1078386306762695
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 14-12-2020_DJI_0433_vari_grip_399.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 14-12-2020_DJI_0433_vari_grip_399",
+      "dqce_score": 0.997975766658783,
+      "dqce_logit": 6.200518608093262
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 16-12-2020_DJI_0188_vari_grip_464.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 16-12-2020_DJI_0188_vari_grip_464",
+      "dqce_score": 0.9577857255935669,
+      "dqce_logit": 3.12186598777771
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 16-12-2020_DJI_0258_vari_grip_461.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 16-12-2020_DJI_0258_vari_grip_461",
+      "dqce_score": 0.997946560382843,
+      "dqce_logit": 6.186154365539551
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 16-12-2020_DJI_0404_vari_grip_450.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 16-12-2020_DJI_0404_vari_grip_450",
+      "dqce_score": 0.9979466795921326,
+      "dqce_logit": 6.186249732971191
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 17-11-2020_DJI_0120_vari_grip_496.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 17-11-2020_DJI_0120_vari_grip_496",
+      "dqce_score": 0.9979396462440491,
+      "dqce_logit": 6.182837963104248
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 17-11-2020_DJI_0121_vari_grip_497.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 17-11-2020_DJI_0121_vari_grip_497",
+      "dqce_score": 0.9978727102279663,
+      "dqce_logit": 6.150795936584473
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 17-11-2020_DJI_0250_vari_grip_482.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 17-11-2020_DJI_0250_vari_grip_482",
+      "dqce_score": 0.9976792931556702,
+      "dqce_logit": 6.063528060913086
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 17-11-2020_DJI_0305_vari_grip_481.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 17-11-2020_DJI_0305_vari_grip_481",
+      "dqce_score": 0.9979497790336609,
+      "dqce_logit": 6.187759876251221
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 17-12-2020_DJI_0385_vari_grip_501.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 17-12-2020_DJI_0385_vari_grip_501",
+      "dqce_score": 0.9979446530342102,
+      "dqce_logit": 6.18526029586792
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 18-11-2020_DJI_0024_vari_grip_554.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 18-11-2020_DJI_0024_vari_grip_554",
+      "dqce_score": 0.9971174001693726,
+      "dqce_logit": 5.846155166625977
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 18-11-2020_DJI_0050_vari_grip_550.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 18-11-2020_DJI_0050_vari_grip_550",
+      "dqce_score": 0.9977922439575195,
+      "dqce_logit": 6.113544464111328
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 18-11-2020_DJI_0107_vari_grip_545.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 18-11-2020_DJI_0107_vari_grip_545",
+      "dqce_score": 0.9978148937225342,
+      "dqce_logit": 6.123889923095703
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 18-11-2020_DJI_0246_vari_grip_528.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 18-11-2020_DJI_0246_vari_grip_528",
+      "dqce_score": 0.002667712979018688,
+      "dqce_logit": -5.923862457275391
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 19-10-2020_DJI_0046_vari_grip_6.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 19-10-2020_DJI_0046_vari_grip_6",
+      "dqce_score": 0.997188150882721,
+      "dqce_logit": 5.871113300323486
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 19-10-2020_DJI_0083_vari_grip_15.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 19-10-2020_DJI_0083_vari_grip_15",
+      "dqce_score": 0.9968942403793335,
+      "dqce_logit": 5.771389007568359
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 20-10-2020_DJI_0202_vari_grip_615.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 20-10-2020_DJI_0202_vari_grip_615",
+      "dqce_score": 0.0038500360678881407,
+      "dqce_logit": -5.55581521987915
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 20-10-2020_DJI_0206_vari_grip_622.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 20-10-2020_DJI_0206_vari_grip_622",
+      "dqce_score": 0.9979636669158936,
+      "dqce_logit": 6.194546222686768
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 20-10-2020_DJI_0208_vari_grip_627.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 20-10-2020_DJI_0208_vari_grip_627",
+      "dqce_score": 0.9976987242698669,
+      "dqce_logit": 6.07197904586792
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 20-10-2020_DJI_0209_vari_grip_628.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 20-10-2020_DJI_0209_vari_grip_628",
+      "dqce_score": 0.9978591799736023,
+      "dqce_logit": 6.144419193267822
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 20-10-2020_DJI_0210_vari_grip_631.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 20-10-2020_DJI_0210_vari_grip_631",
+      "dqce_score": 0.9979446530342102,
+      "dqce_logit": 6.185234069824219
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 20-10-2020_DJI_0240_vari_grip_642.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 20-10-2020_DJI_0240_vari_grip_642",
+      "dqce_score": 0.9978686571121216,
+      "dqce_logit": 6.148868560791016
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 20-10-2020_DJI_0244_vari_grip_651.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 20-10-2020_DJI_0244_vari_grip_651",
+      "dqce_score": 0.9979396462440491,
+      "dqce_logit": 6.182835578918457
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 20-10-2020_DJI_0245_vari_grip_653.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 20-10-2020_DJI_0245_vari_grip_653",
+      "dqce_score": 0.997897744178772,
+      "dqce_logit": 6.1626296043396
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 20-10-2020_DJI_0253_vari_grip_655.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 20-10-2020_DJI_0253_vari_grip_655",
+      "dqce_score": 0.9979674220085144,
+      "dqce_logit": 6.196407318115234
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 20-10-2020_DJI_0255_vari_grip_659.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 20-10-2020_DJI_0255_vari_grip_659",
+      "dqce_score": 0.9979023933410645,
+      "dqce_logit": 6.164862155914307
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 20-10-2020_DJI_0267_vari_grip_588.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 20-10-2020_DJI_0267_vari_grip_588",
+      "dqce_score": 0.9979447722434998,
+      "dqce_logit": 6.185338020324707
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 20-10-2020_DJI_0335_vari_grip_598.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 20-10-2020_DJI_0335_vari_grip_598",
+      "dqce_score": 0.9978863596916199,
+      "dqce_logit": 6.157234191894531
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 20-10-2020_DJI_0336_vari_grip_600.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 20-10-2020_DJI_0336_vari_grip_600",
+      "dqce_score": 0.9979375600814819,
+      "dqce_logit": 6.181814193725586
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 20-10-2020_DJI_0339_vari_grip_605.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 20-10-2020_DJI_0339_vari_grip_605",
+      "dqce_score": 0.9979276657104492,
+      "dqce_logit": 6.177023887634277
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 20-11-2020_DJI_0114_vari_grip_704.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 20-11-2020_DJI_0114_vari_grip_704",
+      "dqce_score": 0.9976959824562073,
+      "dqce_logit": 6.070816993713379
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 20-11-2020_DJI_0114_vari_grip_705.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 20-11-2020_DJI_0114_vari_grip_705",
+      "dqce_score": 0.997899055480957,
+      "dqce_logit": 6.163243770599365
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 20-11-2020_DJI_0170_vari_grip_685.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 20-11-2020_DJI_0170_vari_grip_685",
+      "dqce_score": 0.01926431618630886,
+      "dqce_logit": -3.9300484657287598
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 20-11-2020_DJI_0197_vari_grip_691.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 20-11-2020_DJI_0197_vari_grip_691",
+      "dqce_score": 0.9979357719421387,
+      "dqce_logit": 6.180936336517334
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 20-11-2020_DJI_0242_vari_grip_677.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 20-11-2020_DJI_0242_vari_grip_677",
+      "dqce_score": 0.997887909412384,
+      "dqce_logit": 6.157947063446045
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 22-10-2020_DJI_0865_vari_grip_726.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 22-10-2020_DJI_0865_vari_grip_726",
+      "dqce_score": 0.9978952407836914,
+      "dqce_logit": 6.161465644836426
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 22-10-2020_DJI_0865_vari_grip_727.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 22-10-2020_DJI_0865_vari_grip_727",
+      "dqce_score": 0.9969077706336975,
+      "dqce_logit": 5.775783538818359
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 22-10-2020_DJI_0869_vari_grip_731.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 22-10-2020_DJI_0869_vari_grip_731",
+      "dqce_score": 0.9979590177536011,
+      "dqce_logit": 6.192266941070557
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 23-11-2020_DJI_0010_vari_grip_806.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 23-11-2020_DJI_0010_vari_grip_806",
+      "dqce_score": 0.9979440569877625,
+      "dqce_logit": 6.1849517822265625
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 23-11-2020_DJI_0122_vari_grip_790.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 23-11-2020_DJI_0122_vari_grip_790",
+      "dqce_score": 0.9797480702400208,
+      "dqce_logit": 3.8790435791015625
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 24-11-2020_DJI_0101_vari_grip_838.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 24-11-2020_DJI_0101_vari_grip_838",
+      "dqce_score": 0.003785194829106331,
+      "dqce_logit": -5.5728654861450195
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 24-11-2020_DJI_0243_vari_grip_827.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 24-11-2020_DJI_0243_vari_grip_827",
+      "dqce_score": 0.9970059990882874,
+      "dqce_logit": 5.808135509490967
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 24-11-2020_DJI_0451_vari_grip_814.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 24-11-2020_DJI_0451_vari_grip_814",
+      "dqce_score": 0.9979388117790222,
+      "dqce_logit": 6.182406902313232
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 24-11-2020_DJI_0504_vari_grip_811.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 24-11-2020_DJI_0504_vari_grip_811",
+      "dqce_score": 0.9976356029510498,
+      "dqce_logit": 6.044864654541016
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 24-11-2020_DJI_0504_vari_grip_812.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 24-11-2020_DJI_0504_vari_grip_812",
+      "dqce_score": 0.9979225993156433,
+      "dqce_logit": 6.174517631530762
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 26-11-2020_DJI_0393_vari_grip_885.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 26-11-2020_DJI_0393_vari_grip_885",
+      "dqce_score": 0.9979265928268433,
+      "dqce_logit": 6.176477432250977
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 27-11-2020_DJI_0022_vari_grip_960.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0022_vari_grip_960",
+      "dqce_score": 0.9973158240318298,
+      "dqce_logit": 5.917703628540039
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 27-11-2020_DJI_0353_vari_grip_940.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 27-11-2020_DJI_0353_vari_grip_940",
+      "dqce_score": 0.9974294304847717,
+      "dqce_logit": 5.961042881011963
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 30-11-2020_DJI_0033_vari_grip_1007.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0033_vari_grip_1007",
+      "dqce_score": 0.9974498152732849,
+      "dqce_logit": 5.969064235687256
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 30-11-2020_DJI_0320_vari_grip_985.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0320_vari_grip_985",
+      "dqce_score": 0.0023210172075778246,
+      "dqce_logit": -6.0634260177612305
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 30-11-2020_DJI_0438_vari_grip_976.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0438_vari_grip_976",
+      "dqce_score": 0.9979458451271057,
+      "dqce_logit": 6.185848712921143
+    },
+    {
+      "relative_path": "vari-grip/good/Fotos 30-11-2020_DJI_0561_vari_grip_964.jpg",
+      "component": "vari-grip",
+      "condition": "good",
+      "label": 0,
+      "source": "snow",
+      "group": "Fotos 30-11-2020_DJI_0561_vari_grip_964",
+      "dqce_score": 0.9979705214500427,
+      "dqce_logit": 6.1979804039001465
+    }
+  ]
+}

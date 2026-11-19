@@ -1,0 +1,101 @@
+{
+  "rain": {
+    "images": 422,
+    "normal_images": 259,
+    "unknown_images": 163,
+    "overall": {
+      "auroc": 0.7032356633583627,
+      "aupr": 0.5691701121558047
+    },
+    "component_only": {
+      "auroc": 0.5000355307103773,
+      "aupr": 0.3862727712727204,
+      "component_rate": {
+        "glass-insulator": 0.3862815884476534,
+        "vari-grip": 0.38620689655172413
+      }
+    },
+    "components": {
+      "glass-insulator": {
+        "images": 277,
+        "normal": 170,
+        "unknown": 107,
+        "auroc": 0.7559098405717428,
+        "aupr": 0.5850912918202118
+      },
+      "vari-grip": {
+        "images": 145,
+        "normal": 89,
+        "unknown": 56,
+        "auroc": 0.7256219903691815,
+        "aupr": 0.644220588314113
+      }
+    }
+  },
+  "snow": {
+    "images": 422,
+    "normal_images": 259,
+    "unknown_images": 163,
+    "overall": {
+      "auroc": 0.5911125849776155,
+      "aupr": 0.4674957887694463
+    },
+    "component_only": {
+      "auroc": 0.5000355307103773,
+      "aupr": 0.3862727712727204,
+      "component_rate": {
+        "glass-insulator": 0.3862815884476534,
+        "vari-grip": 0.38620689655172413
+      }
+    },
+    "components": {
+      "glass-insulator": {
+        "images": 277,
+        "normal": 170,
+        "unknown": 107,
+        "auroc": 0.5903793293018141,
+        "aupr": 0.47185831992153326
+      },
+      "vari-grip": {
+        "images": 145,
+        "normal": 89,
+        "unknown": 56,
+        "auroc": 0.6286115569823435,
+        "aupr": 0.47361106932537944
+      }
+    }
+  },
+  "inpainting": {
+    "images": 422,
+    "normal_images": 259,
+    "unknown_images": 163,
+    "overall": {
+      "auroc": 0.7475424591989008,
+      "aupr": 0.6469468554464906
+    },
+    "component_only": {
+      "auroc": 0.5000355307103773,
+      "aupr": 0.3862727712727204,
+      "component_rate": {
+        "glass-insulator": 0.3862815884476534,
+        "vari-grip": 0.38620689655172413
+      }
+    },
+    "components": {
+      "glass-insulator": {
+        "images": 277,
+        "normal": 170,
+        "unknown": 107,
+        "auroc": 0.7435953820780649,
+        "aupr": 0.6233905323084902
+      },
+      "vari-grip": {
+        "images": 145,
+        "normal": 89,
+        "unknown": 56,
+        "auroc": 0.8069823434991974,
+        "aupr": 0.7188116898661108
+      }
+    }
+  }
+}

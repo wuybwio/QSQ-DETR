@@ -1,0 +1,4 @@
+condition,QCS,Semantic,DQCE
+rain,0.25,0.45,0.3
+snow,0.35,0.65,0.0
+inpainting,0.05,0.1,0.85

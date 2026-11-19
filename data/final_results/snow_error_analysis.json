@@ -1,0 +1,506 @@
+{
+  "false_positive_candidates": [
+    {
+      "path": "vari-grip/good/Fotos 14-12-2020_DJI_0433_vari_grip_399.jpg",
+      "component": "vari-grip",
+      "score": 6.200518608093262
+    },
+    {
+      "path": "vari-grip/good/Fotos 09-12-2020_DJI_0143_vari_grip_249.jpg",
+      "component": "vari-grip",
+      "score": 6.198317050933838
+    },
+    {
+      "path": "glass-insulator/good/Fotos 03-12-2020_DJI_0358_cadeia_isolador_vidro_907.jpg",
+      "component": "glass-insulator",
+      "score": 6.198204517364502
+    },
+    {
+      "path": "vari-grip/good/Fotos 30-11-2020_DJI_0561_vari_grip_964.jpg",
+      "component": "vari-grip",
+      "score": 6.1979804039001465
+    },
+    {
+      "path": "vari-grip/good/Fotos 20-10-2020_DJI_0253_vari_grip_655.jpg",
+      "component": "vari-grip",
+      "score": 6.196407318115234
+    },
+    {
+      "path": "glass-insulator/good/Fotos 25-11-2020_DJI_0309_cadeia_isolador_vidro_1805.jpg",
+      "component": "glass-insulator",
+      "score": 6.1962971687316895
+    },
+    {
+      "path": "vari-grip/good/Fotos 01-12-2020_DJI_0078_vari_grip_48.jpg",
+      "component": "vari-grip",
+      "score": 6.195672988891602
+    },
+    {
+      "path": "glass-insulator/good/Fotos 30-11-2020_DJI_0132_cadeia_isolador_vidro_2891.jpg",
+      "component": "glass-insulator",
+      "score": 6.19484281539917
+    },
+    {
+      "path": "vari-grip/good/Fotos 02-12-2020_DJI_0190_vari_grip_80.jpg",
+      "component": "vari-grip",
+      "score": 6.194631099700928
+    },
+    {
+      "path": "glass-insulator/good/Fotos 01-12-2020_DJI_0136_cadeia_isolador_vidro_272.jpg",
+      "component": "glass-insulator",
+      "score": 6.194619655609131
+    },
+    {
+      "path": "vari-grip/good/Fotos 20-10-2020_DJI_0206_vari_grip_622.jpg",
+      "component": "vari-grip",
+      "score": 6.194546222686768
+    },
+    {
+      "path": "glass-insulator/good/Fotos 30-11-2020_DJI_0163_cadeia_isolador_vidro_2938.jpg",
+      "component": "glass-insulator",
+      "score": 6.1938157081604
+    },
+    {
+      "path": "glass-insulator/good/Fotos 26-11-2020_DJI_0088_cadeia_isolador_vidro_2181.jpg",
+      "component": "glass-insulator",
+      "score": 6.1925435066223145
+    },
+    {
+      "path": "vari-grip/good/Fotos 22-10-2020_DJI_0869_vari_grip_731.jpg",
+      "component": "vari-grip",
+      "score": 6.192266941070557
+    },
+    {
+      "path": "glass-insulator/good/Fotos 21-10-2020_DJI_0484_cadeia_isolador_vidro_1598.jpg",
+      "component": "glass-insulator",
+      "score": 6.191033840179443
+    },
+    {
+      "path": "glass-insulator/good/Fotos 17-11-2020_DJI_0134_cadeia_isolador_vidro_1508.jpg",
+      "component": "glass-insulator",
+      "score": 6.188403606414795
+    },
+    {
+      "path": "vari-grip/good/Fotos 17-11-2020_DJI_0305_vari_grip_481.jpg",
+      "component": "vari-grip",
+      "score": 6.187759876251221
+    },
+    {
+      "path": "glass-insulator/good/Fotos 02-12-2020_DJI_0216_cadeia_isolador_vidro_594.jpg",
+      "component": "glass-insulator",
+      "score": 6.187749862670898
+    },
+    {
+      "path": "glass-insulator/good/Fotos 21-10-2020_DJI_0459_cadeia_isolador_vidro_1584.jpg",
+      "component": "glass-insulator",
+      "score": 6.186476707458496
+    },
+    {
+      "path": "vari-grip/good/Fotos 16-12-2020_DJI_0404_vari_grip_450.jpg",
+      "component": "vari-grip",
+      "score": 6.186249732971191
+    },
+    {
+      "path": "vari-grip/good/Fotos 16-12-2020_DJI_0258_vari_grip_461.jpg",
+      "component": "vari-grip",
+      "score": 6.186154365539551
+    },
+    {
+      "path": "vari-grip/good/Fotos 30-11-2020_DJI_0438_vari_grip_976.jpg",
+      "component": "vari-grip",
+      "score": 6.185848712921143
+    },
+    {
+      "path": "vari-grip/good/Fotos 20-10-2020_DJI_0267_vari_grip_588.jpg",
+      "component": "vari-grip",
+      "score": 6.185338020324707
+    },
+    {
+      "path": "vari-grip/good/Fotos 17-12-2020_DJI_0385_vari_grip_501.jpg",
+      "component": "vari-grip",
+      "score": 6.18526029586792
+    },
+    {
+      "path": "vari-grip/good/Fotos 20-10-2020_DJI_0210_vari_grip_631.jpg",
+      "component": "vari-grip",
+      "score": 6.185234069824219
+    },
+    {
+      "path": "glass-insulator/good/Fotos 27-11-2020_DJI_0452_cadeia_isolador_vidro_2385.jpg",
+      "component": "glass-insulator",
+      "score": 6.18519926071167
+    },
+    {
+      "path": "vari-grip/good/Fotos 23-11-2020_DJI_0010_vari_grip_806.jpg",
+      "component": "vari-grip",
+      "score": 6.1849517822265625
+    },
+    {
+      "path": "glass-insulator/good/Fotos 07-12-2020_DJI_0167_cadeia_isolador_vidro_1357.jpg",
+      "component": "glass-insulator",
+      "score": 6.183660507202148
+    },
+    {
+      "path": "glass-insulator/good/Fotos 02-12-2020_DJI_0519_cadeia_isolador_vidro_398.jpg",
+      "component": "glass-insulator",
+      "score": 6.1835222244262695
+    },
+    {
+      "path": "glass-insulator/good/Fotos 26-11-2020_DJI_0427_cadeia_isolador_vidro_1953.jpg",
+      "component": "glass-insulator",
+      "score": 6.183098793029785
+    },
+    {
+      "path": "glass-insulator/good/Fotos 26-11-2020_DJI_0147_cadeia_isolador_vidro_2135.jpg",
+      "component": "glass-insulator",
+      "score": 6.182880878448486
+    },
+    {
+      "path": "vari-grip/good/Fotos 17-11-2020_DJI_0120_vari_grip_496.jpg",
+      "component": "vari-grip",
+      "score": 6.182837963104248
+    },
+    {
+      "path": "vari-grip/good/Fotos 20-10-2020_DJI_0244_vari_grip_651.jpg",
+      "component": "vari-grip",
+      "score": 6.182835578918457
+    },
+    {
+      "path": "glass-insulator/good/Fotos 01-12-2020_DJI_0281_cadeia_isolador_vidro_174.jpg",
+      "component": "glass-insulator",
+      "score": 6.182491302490234
+    },
+    {
+      "path": "vari-grip/good/Fotos 24-11-2020_DJI_0451_vari_grip_814.jpg",
+      "component": "vari-grip",
+      "score": 6.182406902313232
+    },
+    {
+      "path": "vari-grip/good/Fotos 20-10-2020_DJI_0336_vari_grip_600.jpg",
+      "component": "vari-grip",
+      "score": 6.181814193725586
+    },
+    {
+      "path": "vari-grip/good/Fotos 20-11-2020_DJI_0197_vari_grip_691.jpg",
+      "component": "vari-grip",
+      "score": 6.180936336517334
+    },
+    {
+      "path": "vari-grip/good/Fotos 04-12-2020_DJI_1000 (2)_vari_grip_141.jpg",
+      "component": "vari-grip",
+      "score": 6.180197238922119
+    },
+    {
+      "path": "vari-grip/good/Fotos 07-12-2020_DJI_0100_vari_grip_191.jpg",
+      "component": "vari-grip",
+      "score": 6.179542541503906
+    },
+    {
+      "path": "vari-grip/good/Fotos 20-10-2020_DJI_0339_vari_grip_605.jpg",
+      "component": "vari-grip",
+      "score": 6.177023887634277
+    },
+    {
+      "path": "vari-grip/good/Fotos 26-11-2020_DJI_0393_vari_grip_885.jpg",
+      "component": "vari-grip",
+      "score": 6.176477432250977
+    },
+    {
+      "path": "glass-insulator/good/Fotos 30-11-2020_DJI_0514_cadeia_isolador_vidro_2668.jpg",
+      "component": "glass-insulator",
+      "score": 6.176281929016113
+    },
+    {
+      "path": "vari-grip/good/Fotos 24-11-2020_DJI_0504_vari_grip_812.jpg",
+      "component": "vari-grip",
+      "score": 6.174517631530762
+    },
+    {
+      "path": "glass-insulator/good/Fotos 30-11-2020_DJI_0116_cadeia_isolador_vidro_2878.jpg",
+      "component": "glass-insulator",
+      "score": 6.1729326248168945
+    },
+    {
+      "path": "glass-insulator/good/Fotos 03-12-2020_DJI_0084_cadeia_isolador_vidro_999.jpg",
+      "component": "glass-insulator",
+      "score": 6.172607421875
+    },
+    {
+      "path": "glass-insulator/good/Fotos 25-11-2020_DJI_0268_cadeia_isolador_vidro_1845.jpg",
+      "component": "glass-insulator",
+      "score": 6.171738147735596
+    },
+    {
+      "path": "vari-grip/good/Fotos 01-12-2020_DJI_0512_vari_grip_23.jpg",
+      "component": "vari-grip",
+      "score": 6.17156982421875
+    },
+    {
+      "path": "glass-insulator/good/Fotos 30-11-2020_DJI_0275_cadeia_isolador_vidro_2799.jpg",
+      "component": "glass-insulator",
+      "score": 6.168496131896973
+    },
+    {
+      "path": "glass-insulator/good/Fotos 26-11-2020_DJI_0085_cadeia_isolador_vidro_2178.jpg",
+      "component": "glass-insulator",
+      "score": 6.168017387390137
+    },
+    {
+      "path": "glass-insulator/good/Fotos 27-11-2020_DJI_0356_cadeia_isolador_vidro_2410.jpg",
+      "component": "glass-insulator",
+      "score": 6.166182041168213
+    }
+  ],
+  "false_negative_candidates": [
+    {
+      "path": "glass-insulator/missing-cap/Fotos 21-10-2020_DJI_0540_cadeia_isolador_vidro_1619.jpg",
+      "component": "glass-insulator",
+      "score": -6.145081996917725
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 25-11-2020_DJI_0451_cadeia_isolador_vidro_1780_0.jpg",
+      "component": "glass-insulator",
+      "score": -6.143505096435547
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 21-10-2020_DJI_0556_cadeia_isolador_vidro_1627_2.jpg",
+      "component": "glass-insulator",
+      "score": -6.137771129608154
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0366_cadeia_isolador_vidro_918_3.jpg",
+      "component": "glass-insulator",
+      "score": -6.13337516784668
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0346_cadeia_isolador_vidro_892.jpg",
+      "component": "glass-insulator",
+      "score": -6.132900714874268
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 01-12-2020_DJI_0014_cadeia_isolador_vidro_338_8.jpg",
+      "component": "glass-insulator",
+      "score": -6.125058174133301
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0360_cadeia_isolador_vidro_910_2.jpg",
+      "component": "glass-insulator",
+      "score": -6.1235127449035645
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 21-10-2020_DJI_0538_cadeia_isolador_vidro_1616.jpg",
+      "component": "glass-insulator",
+      "score": -6.122194290161133
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 07-12-2020_DJI_0182_cadeia_isolador_vidro_1321_3.jpg",
+      "component": "glass-insulator",
+      "score": -6.121601104736328
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0333_cadeia_isolador_vidro_884.jpg",
+      "component": "glass-insulator",
+      "score": -6.121478080749512
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 25-11-2020_DJI_0448_cadeia_isolador_vidro_1774_4.jpg",
+      "component": "glass-insulator",
+      "score": -6.120349884033203
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0362_cadeia_isolador_vidro_913.jpg",
+      "component": "glass-insulator",
+      "score": -6.114208221435547
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 07-12-2020_DJI_0194_cadeia_isolador_vidro_1328_2.jpg",
+      "component": "glass-insulator",
+      "score": -6.108351707458496
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 21-10-2020_DJI_0540_cadeia_isolador_vidro_1619_6.jpg",
+      "component": "glass-insulator",
+      "score": -6.104419708251953
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 30-11-2020_DJI_0144_cadeia_isolador_vidro_2922_3.jpg",
+      "component": "glass-insulator",
+      "score": -6.104373931884766
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 07-12-2020_DJI_0182_cadeia_isolador_vidro_1321_5.jpg",
+      "component": "glass-insulator",
+      "score": -6.098996639251709
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 07-12-2020_DJI_0193_cadeia_isolador_vidro_1327.jpg",
+      "component": "glass-insulator",
+      "score": -6.09602165222168
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 25-11-2020_DJI_0449_cadeia_isolador_vidro_1775_2.jpg",
+      "component": "glass-insulator",
+      "score": -6.08925724029541
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 19-10-2020_DJI_0061_cadeia_isolador_vidro_0_8.jpg",
+      "component": "glass-insulator",
+      "score": -6.083434104919434
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 25-11-2020_DJI_0196_cadeia_isolador_vidro_1863_1.jpg",
+      "component": "glass-insulator",
+      "score": -6.072709083557129
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0347_cadeia_isolador_vidro_893_3.jpg",
+      "component": "glass-insulator",
+      "score": -6.066118240356445
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0402_cadeia_isolador_vidro_791_6.jpg",
+      "component": "glass-insulator",
+      "score": -6.064396858215332
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 01-12-2020_DJI_0349_cadeia_isolador_vidro_140_7.jpg",
+      "component": "glass-insulator",
+      "score": -6.063000202178955
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 16-11-2020_DJI_0031_cadeia_isolador_vidro_1503.jpg",
+      "component": "glass-insulator",
+      "score": -6.05947208404541
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 07-12-2020_DJI_0193_cadeia_isolador_vidro_1327_7.jpg",
+      "component": "glass-insulator",
+      "score": -6.048802375793457
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0336_cadeia_isolador_vidro_887_3.jpg",
+      "component": "glass-insulator",
+      "score": -6.032635688781738
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 04-12-2020_DJI_0722_cadeia_isolador_vidro_1192_4.jpg",
+      "component": "glass-insulator",
+      "score": -6.030325889587402
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 19-10-2020_DJI_0067_cadeia_isolador_vidro_12_6.jpg",
+      "component": "glass-insulator",
+      "score": -6.025681495666504
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0335_cadeia_isolador_vidro_886.jpg",
+      "component": "glass-insulator",
+      "score": -6.023653030395508
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 25-11-2020_DJI_0196_cadeia_isolador_vidro_1863_5.jpg",
+      "component": "glass-insulator",
+      "score": -6.01751184463501
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0403_cadeia_isolador_vidro_792_3.jpg",
+      "component": "glass-insulator",
+      "score": -6.011547088623047
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0346_cadeia_isolador_vidro_892_4.jpg",
+      "component": "glass-insulator",
+      "score": -6.007970809936523
+    },
+    {
+      "path": "vari-grip/bird-nest/Fotos 25-11-2020_DJI_0586_vari_grip_845_2.jpg",
+      "component": "vari-grip",
+      "score": -5.977840423583984
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 21-10-2020_DJI_0556_cadeia_isolador_vidro_1627_6.jpg",
+      "component": "glass-insulator",
+      "score": -5.96077823638916
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0335_cadeia_isolador_vidro_886_2.jpg",
+      "component": "glass-insulator",
+      "score": -5.939145088195801
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 01-12-2020_DJI_0014_cadeia_isolador_vidro_338_1.jpg",
+      "component": "glass-insulator",
+      "score": -5.937778949737549
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0346_cadeia_isolador_vidro_892_1.jpg",
+      "component": "glass-insulator",
+      "score": -5.93588924407959
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 21-10-2020_DJI_0556_cadeia_isolador_vidro_1627_5.jpg",
+      "component": "glass-insulator",
+      "score": -5.933485984802246
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 19-10-2020_DJI_0067_cadeia_isolador_vidro_19_5.jpg",
+      "component": "glass-insulator",
+      "score": -5.932007789611816
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 19-10-2020_DJI_0061_cadeia_isolador_vidro_0_1.jpg",
+      "component": "glass-insulator",
+      "score": -5.930357933044434
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 16-11-2020_DJI_0024_cadeia_isolador_vidro_1502_5.jpg",
+      "component": "glass-insulator",
+      "score": -5.926924705505371
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 21-10-2020_DJI_0536_cadeia_isolador_vidro_1613_5.jpg",
+      "component": "glass-insulator",
+      "score": -5.796850204467773
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 30-11-2020_DJI_0144_cadeia_isolador_vidro_2922.jpg",
+      "component": "glass-insulator",
+      "score": -5.789423942565918
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0402_cadeia_isolador_vidro_791_0.jpg",
+      "component": "glass-insulator",
+      "score": -5.721752166748047
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 16-11-2020_DJI_0024_cadeia_isolador_vidro_1502_3.jpg",
+      "component": "glass-insulator",
+      "score": -5.639366626739502
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 25-11-2020_DJI_0196_cadeia_isolador_vidro_1863_2.jpg",
+      "component": "glass-insulator",
+      "score": -5.5507493019104
+    },
+    {
+      "path": "vari-grip/bird-nest/Fotos 20-11-2020_DJI_0210_vari_grip_683_5.jpg",
+      "component": "vari-grip",
+      "score": -5.53188419342041
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 03-12-2020_DJI_0333_cadeia_isolador_vidro_884_4.jpg",
+      "component": "glass-insulator",
+      "score": -5.440989017486572
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 27-11-2020_DJI_0104_cadeia_isolador_vidro_2586_1.jpg",
+      "component": "glass-insulator",
+      "score": -5.390535354614258
+    },
+    {
+      "path": "glass-insulator/missing-cap/Fotos 19-10-2020_DJI_0067_cadeia_isolador_vidro_19_3.jpg",
+      "component": "glass-insulator",
+      "score": -5.249993801116943
+    }
+  ]
+}

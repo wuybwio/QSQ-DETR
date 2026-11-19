@@ -1,0 +1,15 @@
+{
+  "kind": "rtdetr",
+  "weights": null,
+  "config": "configs/rtdetrv2/rtdetrv2_r50vd_baseline_eval_insplad.yml",
+  "checkpoint": "output/speed_test/best.pth",
+  "input_size": 640,
+  "device": "cuda:0",
+  "parameters": 42763962,
+  "parameters_million": 42.763962,
+  "gflops": 67.9378432,
+  "latency_ms": 14.190783314988948,
+  "fps": 70.46827351269289,
+  "warmup": 50,
+  "iterations": 200
+}

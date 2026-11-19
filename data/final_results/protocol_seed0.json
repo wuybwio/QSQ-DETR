@@ -1,0 +1,23 @@
+{
+  "seed": 0,
+  "conditions": [
+    "rain",
+    "snow",
+    "inpainting"
+  ],
+  "image_size": 640,
+  "topk": 10,
+  "qcs_sign": 1,
+  "semantic_sign": -1,
+  "risk_alpha": 0.05,
+  "calibration_test_overlap": {
+    "rain": 0,
+    "snow": 0,
+    "inpainting": 0
+  },
+  "alpha": {
+    "rain": 0.4,
+    "snow": 0.35,
+    "inpainting": 0.4
+  }
+}

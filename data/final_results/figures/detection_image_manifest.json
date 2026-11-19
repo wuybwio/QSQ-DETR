@@ -1,0 +1,22 @@
+[
+  {
+    "id": "easy_001",
+    "image": "[local path removed]",
+    "category": "easy"
+  },
+  {
+    "id": "crowded_001",
+    "image": "[local path removed]",
+    "category": "crowded"
+  },
+  {
+    "id": "small_object_001",
+    "image": "[local path removed]",
+    "category": "small_object"
+  },
+  {
+    "id": "overlap_candidate_001",
+    "image": "[local path removed]",
+    "category": "overlap_candidate"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "candidate": "two_tail_dqce",
+  "accepted_for_test": false,
+  "reason": "Two-tail scoring consistently underperformed signed DQCE on both tuning and held-out calibration subsets.",
+  "tuning": {
+    "signed": {
+      "mean_auroc": 0.621,
+      "mean_aupr": 0.5138,
+      "bird_nest_auroc": 0.7653,
+      "missing_cap_auroc": 0.5461
+    },
+    "two_tail": {
+      "mean_auroc": 0.4752,
+      "mean_aupr": 0.4035,
+      "bird_nest_auroc": 0.4428,
+      "missing_cap_auroc": 0.4919
+    }
+  },
+  "heldout_calibration": {
+    "signed": {
+      "mean_auroc": 0.6696,
+      "mean_aupr": 0.5673,
+      "bird_nest_auroc": 0.8204,
+      "missing_cap_auroc": 0.59
+    },
+    "two_tail": {
+      "mean_auroc": 0.4583,
+      "mean_aupr": 0.4284,
+      "bird_nest_auroc": 0.4792,
+      "missing_cap_auroc": 0.4473
+    }
+  },
+  "test_evaluation_performed": false,
+  "selected_main_score": "signed_global_dqce"
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "condition": "rain",
+    "baseline": {
+      "images": 422,
+      "normal_images": 259,
+      "unknown_images": 163,
+      "auroc": 0.3737356988890731,
+      "aupr": 0.310963546635578,
+      "fpr_at_tpr95": 0.972972972972973
+    },
+    "dqce_seed0": {
+      "images": 422,
+      "normal_images": 259,
+      "unknown_images": 163,
+      "auroc": 0.7032475069284886,
+      "aupr": 0.5691701121558047,
+      "fpr_at_tpr95": 0.7104247104247104
+    },
+    "delta": {
+      "auroc": 0.3295118080394155,
+      "aupr": 0.2582065655202267,
+      "fpr_at_tpr95": -0.2625482625482626
+    }
+  },
+  {
+    "condition": "snow",
+    "baseline": {
+      "images": 422,
+      "normal_images": 259,
+      "unknown_images": 163,
+      "auroc": 0.47395598929341254,
+      "aupr": 0.39163644126692093,
+      "fpr_at_tpr95": 0.9768339768339769
+    },
+    "dqce_seed0": {
+      "images": 422,
+      "normal_images": 259,
+      "unknown_images": 163,
+      "auroc": 0.5911362721178672,
+      "aupr": 0.46760442943600944,
+      "fpr_at_tpr95": 0.8532818532818532
+    },
+    "delta": {
+      "auroc": 0.1171802828244547,
+      "aupr": 0.07596798816908851,
+      "fpr_at_tpr95": -0.12355212355212364
+    }
+  },
+  {
+    "condition": "inpainting",
+    "baseline": {
+      "images": 422,
+      "normal_images": 259,
+      "unknown_images": 163,
+      "auroc": 0.42850036715067386,
+      "aupr": 0.3275652788831962,
+      "fpr_at_tpr95": 0.9652509652509652
+    },
+    "dqce_seed0": {
+      "images": 422,
+      "normal_images": 259,
+      "unknown_images": 163,
+      "auroc": 0.7475424591989008,
+      "aupr": 0.6469468554464906,
+      "fpr_at_tpr95": 0.694980694980695
+    },
+    "delta": {
+      "auroc": 0.319042092048227,
+      "aupr": 0.31938157656329436,
+      "fpr_at_tpr95": -0.2702702702702702
+    }
+  }
+]

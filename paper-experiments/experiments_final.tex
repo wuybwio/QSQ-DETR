@@ -1,0 +1,641 @@
+% Replacement experimental section for the QSD-DETR manuscript.
+% Required packages: amsmath, amssymb, array, booktabs, graphicx, multirow.
+% Place the replacement figures at the first paths specified below.
+% Existing artwork is displayed only as an explicitly marked temporary preview.
+% The four method figures plus the introductory figure precede this section.
+% Consequently, the first experimental figure is automatically Fig. 6.
+
+% Keep the same font in every table; do not resize individual tables.
+\providecommand{\QSDexpTableStyle}{%
+  \footnotesize
+  \setlength{\tabcolsep}{3pt}%
+  \renewcommand{\arraystretch}{1.12}%
+}
+
+% #1 = final artwork, #2 = existing temporary artwork, #3 = panel height.
+% The temporary notice disappears automatically when #1 is supplied.
+\providecommand{\QSDexpArtwork}[3]{%
+  \IfFileExists{#1}{%
+    \includegraphics[width=\textwidth]{#1}%
+  }{%
+    \IfFileExists{#2}{%
+      \includegraphics[width=\textwidth,height=#3,keepaspectratio]{#2}\par
+    }{%
+      \fbox{\parbox[c][#3][c]{0.94\textwidth}{\centering
+        Experimental figure reserved for replacement artwork.}}\par
+    }%
+    \smallskip
+    {\footnotesize\fbox{\strut Temporary artwork: replace with the figure described in the caption.}}%
+  }%
+}
+
+\section{Experimental Results}
+\label{sec:experiments}
+
+This section evaluates whether QSD-DETR retains known-component detection
+accuracy while providing useful image-level evidence for unknown defects.
+The evaluation separates component localization, unknown-defect ranking,
+training-objective ablation, and empirical selective rejection. This
+separation is necessary because accurate component detection does not imply
+that detector confidence can identify a previously unseen physical defect.
+The proposed configurations are denoted \emph{Ours} in tables and figures;
+RT-DETR denotes the detector baseline, instantiated with RT-DETRv2 and a
+ResNet-50 backbone.
+
+\subsection{Experimental Protocol and Metrics}
+\label{subsec:experimental_protocol}
+
+\subsubsection{Known-Component Detection}
+The closed-set comparison uses the InsPLAD validation split containing
+2626 images and 6324 annotated instances from 17 component categories.
+RT-DETR and QSD-DETR use a checkpoint-compatible annotation file whose
+category identifiers run from 1 to 18. Its additional \emph{sphere} entry
+contains no validation instances and has no valid category precision in the
+COCO evaluation cache; it is excluded from the reported category average.
+The 17-category annotation file used for the YOLO reports contains the same
+validation image and instance counts, with identifiers remapped to 0--16.
+The compared detectors are YOLOv8m, YOLO11m, YOLOv12m, Faster R-CNN with a
+ResNet-50-FPN backbone, RT-DETR, and QSD-DETR.
+
+Detection results are expressed as percentages. We report mAP$_{50}$ and
+mAP$_{75}$ at intersection-over-union (IoU) thresholds of 0.50 and 0.75,
+respectively, and mAP$_{50:95}$ averaged over ten thresholds from 0.50 to
+0.95 in steps of 0.05. The additional mAP$_{50:75}$ averages six thresholds
+from 0.50 to 0.75 in the same steps; it is distinct from mAP$_{75}$.
+Unavailable entries in the archived reports are marked ``--'' rather than
+estimated from another metric. The RT-DETR results are recovered from the
+EMA evaluation cache, whereas the QSD-DETR results are recovered from the
+non-EMA cache. Their difference therefore describes the evaluated
+checkpoints and is not an isolated causal estimate of an auxiliary module.
+
+\subsubsection{Image-Level Unknown-Defect Assessment}
+The condition-controlled comparison evaluates rain, snow, and inpainting
+separately. Each condition contains 422 test images: 259 normal images and
+163 images with unknown defects. The saved method comparisons use the same
+image identities within a condition, and the recorded calibration--test
+group overlap is zero. Imaging conditions are not defect categories:
+inpainting denotes an appearance artifact, whereas an unknown-defect label
+denotes a physical-defect evaluation target. Defect novelty is evaluated
+at the image level and is not added as a detector class.
+
+Let $y_i=1$ denote an unknown defect and $y_i=0$ a normal image. We report
+AUROC, AUPR, and FPR at 95\% true-positive rate, abbreviated FPR95. AUROC
+and AUPR measure ranking over thresholds; FPR95 measures the normal-image
+false-positive rate at the specified unknown-defect sensitivity. Higher
+AUROC and AUPR and lower FPR95 are preferred. These metrics are fractions
+in $[0,1]$. The positive prevalence in the 422-image tests is
+$163/422\approx0.386$, which is the reference precision of random ranking.
+All raw-score comparisons retain the score direction stored in the
+evaluation files. A separately calibration-selected direction audit is
+identified explicitly when discussed below.
+
+The quality router has four observed target states: clean, rain, snow, and
+inpainting. Its fifth configured output has no training target. The archived
+router audit found clean-state predictions across the observed conditions.
+Accordingly, the archived QCS and fusion results characterize the saved
+score configurations and do not establish reliable automatic routing among
+degradations. The three-branch results use separate coefficient vectors for
+the three known conditions. They are reported as condition-specific fusion
+analyses, rather than the performance of one globally fixed deployment rule.
+
+The broader PLAMD-labelled evaluation is reported separately because its
+37610-image population differs from the 422-image tests. We retain the
+archived protocol names, \emph{Mixed PLAMD OOD} and \emph{Snow-held-out OOD}.
+The latter is a protocol identifier; the saved image-level results alone
+are insufficient to establish source-independent leave-one-defect-family-out
+generalization. Neither protocol supplies an evaluation of unknown-defect
+bounding-box localization.
+
+\subsubsection{Computation and Statistical Reporting}
+The detector benchmark uses a $640\times640$ input tensor, batch size one,
+50 warm-up iterations, and 200 timed iterations on the selected CUDA device.
+CUDA execution is synchronized before and after the timed loop. Latency and
+FPS refer to the benchmarked model forward path; they exclude image loading
+and preprocessing. Model-specific operations contained in the forward path
+remain included. These numbers do not include an external DQCE adapter or
+the complete score-calibration and rejection workflow.
+
+Computation is estimated with THOP. We report profiled GFLOPs using the
+explicit convention $\mathrm{FLOPs}=2\times\mathrm{MACs}$, where MACs denotes
+multiply--accumulate operations. THOP does not necessarily
+cover every custom or functional operator, so these are estimates for the
+profiled forward path. Detector accuracy and the main unknown-defect
+comparison are single-run archived results. DQCE ablations report the mean
+and sample standard deviation across seeds 0, 1, and 2; differences are not
+described as statistically significant without an accompanying test.
+
+\subsection{Known-Component Detection and Model Cost}
+\label{subsec:detection_results}
+
+Table~\ref{tab:detection_complexity} combines detection accuracy with
+parameter count, profiled computation, and measured runtime. QSD-DETR
+achieves mAP$_{50}$ of 88.18\% and mAP$_{50:95}$ of 72.05\%, compared with
+86.22\% and 70.59\% for RT-DETR. The corresponding observed gains are 1.97
+and 1.47 percentage points. At the stricter IoU threshold of 0.75, the
+observed gain is 1.13 percentage points. These results show that the evaluated
+QSD-DETR checkpoint retains known-component detection while supporting the
+additional image-level analysis.
+
+\begin{table*}[!t]
+  \centering
+  \caption{Known-component detection accuracy and model-forward cost on the
+  2626-image validation split. Detection metrics are percentages.
+  GFLOPs$^\dagger$ are twice the archived THOP MAC counts and represent
+  profiled operations. Runtime is for the benchmarked detector path, not the
+  complete anomaly-assessment pipeline. ``--'' denotes an unavailable
+  archived metric.}
+  \label{tab:detection_complexity}
+  {\QSDexpTableStyle
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrrrrrrr@{}}
+    \toprule
+    Model & mAP$_{50}$ & mAP$_{75}$ & mAP$_{50:95}$ & mAP$_{50:75}$
+    & Params (M) & GFLOPs$^\dagger$ & Latency (ms) & FPS \\
+    \midrule
+    YOLOv8m      & 88.40 & --    & 72.00 & --    & 25.867 & 79.120  & 5.774  & 173.18 \\
+    YOLO11m      & 87.70 & --    & 70.60 & --    & 20.067 & 68.262  & 6.548  & 152.71 \\
+    YOLOv12m     & 86.10 & --    & 69.10 & --    & 21.724 & 69.235  & 21.349 & 46.84 \\
+    Faster R-CNN & 79.22 & 63.68 & 58.45 & --    & 41.439 & 182.324 & 16.355 & 61.14 \\
+    RT-DETR      & 86.22 & 72.77 & 70.59 & 80.40 & 42.764 & 135.876 & 14.191 & 70.47 \\
+    Ours         & 88.18 & 73.90 & 72.05 & 82.50 & 43.062 & 136.034 & 15.927 & 62.79 \\
+    \bottomrule
+  \end{tabular*}\par
+  \smallskip
+  \parbox{\textwidth}{YOLO accuracy is retained at the precision available in
+  its archived validation logs. Faster R-CNN accuracy is from the supplied
+  final validation log. RT-DETR and Ours use the recovered evaluation caches.
+  Parameter counts and runtime use the saved benchmark checkpoints.}
+  }
+\end{table*}
+
+YOLOv8m has the highest reported mAP$_{50}$, at 88.40\%, and the highest
+measured detector throughput. Its mAP$_{50:95}$ of 72.00\% is close to the
+72.05\% of QSD-DETR; the available precision and single-run protocol do not
+support a claim of meaningful superiority between these two entries.
+Faster R-CNN obtains lower accuracy in the supplied validation report and
+has the largest profiled computation among the compared forward paths.
+
+Figure~\ref{fig:detection_visualization} provides the qualitative
+counterpart of Table~\ref{tab:detection_complexity}. It compares the same
+four validation images across all six detectors, together with ground truth.
+The cases cover a relatively easy scene, a crowded arrangement, small
+components, and overlapping components. Identical image crops, class colors,
+and display thresholds permit inspection of missed detections, false
+positives, and localization differences. These selected examples illustrate
+individual outcomes; they do not replace the aggregate validation results.
+
+\begin{figure*}[!t]
+  \centering
+  \QSDexpArtwork{figure/figure6/fig6_detection_comparison.png}
+    {figure/figure7/fig7_open_world_comparison.png}{2.5in}
+  \caption{Qualitative known-component detection comparison. Columns show
+  the same easy, crowded, small-object, and overlap examples; rows show
+  ground truth, YOLOv8m, YOLO11m, YOLOv12m, Faster R-CNN, RT-DETR, and Ours.
+  All predictions are displayed at confidence 0.25 with consistent class
+  colors. Enlarged regions use the same coordinates for every model.
+  The displayed boxes denote component categories, not unknown-defect
+  localization.}
+  \label{fig:detection_visualization}
+\end{figure*}
+
+Relative to RT-DETR, the benchmarked QSD-DETR checkpoint adds 0.299 million
+parameters before rounding the table entries and approximately 0.158 profiled
+GFLOPs, equivalent to 0.079 GMACs. Measured latency increases by 1.736 ms,
+from 14.191 to 15.927 ms, while throughput decreases from 70.47 to 62.79 FPS.
+This comparison characterizes the cost of the benchmarked checkpoint; the
+complete defect-assessment workflow is considered separately in
+Section~\ref{subsec:runtime_analysis}.
+
+\subsection{Unknown-Defect Scoring Under Image Degradation}
+\label{subsec:unknown_scoring}
+
+Table~\ref{tab:unknown_methods} compares unknown-defect scoring methods
+under the three imaging conditions. MSP is the RT-DETR
+confidence-based score used in the baseline comparison. The additional
+methods are energy scoring, Gaussian feature scoring with 90th-percentile
+aggregation, Deep kNN, ViM, and PatchCore. The proposed configurations
+separate DQCE-only scoring, the archived QCS+semantic score, and
+condition-specific three-branch fusion. These suffixes identify different
+score configurations of QSD-DETR with distinct inference rules.
+
+\begin{table*}[!t]
+  \centering
+  \caption{Image-level unknown-defect comparison under rain, snow,
+  and inpainting. Each condition contains 259 normal and 163 unknown-defect
+  images. Entries are seed-0 results with the archived raw-score direction.
+  AUROC and AUPR are higher-is-better; FPR95 is lower-is-better.
+  The three-branch row uses condition-specific coefficients.}
+  \label{tab:unknown_methods}
+  {\QSDexpTableStyle
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrrrrrrrr@{}}
+    \toprule
+    & \multicolumn{3}{c}{Rain} & \multicolumn{3}{c}{Snow}
+    & \multicolumn{3}{c}{Inpainting} \\
+    \cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}
+    Method & AUROC & AUPR & FPR95 & AUROC & AUPR & FPR95
+    & AUROC & AUPR & FPR95 \\
+    \midrule
+    RT-DETR (MSP) & 0.374 & 0.311 & 0.973 & 0.474 & 0.392 & 0.977 & 0.429 & 0.328 & 0.965 \\
+    Energy        & 0.413 & 0.322 & 0.981 & 0.470 & 0.356 & 0.961 & 0.472 & 0.366 & 0.934 \\
+    Gaussian (q90)& 0.669 & 0.544 & 0.915 & 0.558 & 0.437 & 0.938 & 0.544 & 0.434 & 0.954 \\
+    Deep kNN      & 0.620 & 0.509 & 0.903 & 0.543 & 0.418 & 0.900 & 0.567 & 0.442 & 0.969 \\
+    ViM           & 0.412 & 0.318 & 0.973 & 0.453 & 0.339 & 0.981 & 0.474 & 0.352 & 0.950 \\
+    PatchCore     & \textbf{0.845} & \textbf{0.746} & \textbf{0.537}
+                  & \textbf{0.629} & 0.471 & \textbf{0.822} & 0.356 & 0.301 & 0.969 \\
+    \midrule
+    Ours (DQCE)   & 0.703 & 0.569 & 0.710 & 0.591 & 0.468 & 0.853
+                  & \textbf{0.748} & \textbf{0.647} & \textbf{0.695} \\
+    Ours (QCS+semantic)
+                  & 0.730 & 0.586 & 0.737 & 0.566 & 0.426 & 0.846 & 0.563 & 0.416 & 0.876 \\
+    Ours (three-branch)
+                  & 0.763 & 0.637 & 0.683 & 0.577 & \textbf{0.482} & 0.942 & 0.638 & 0.552 & 0.888 \\
+    \bottomrule
+  \end{tabular*}}
+\end{table*}
+
+The results show substantial condition dependence. Under rain, PatchCore
+achieves the strongest reported AUROC, AUPR, and FPR95, at
+0.845, 0.746, and 0.537. Among the proposed raw-score configurations,
+three-branch fusion improves AUROC from 0.703 for DQCE to 0.763 and AUPR
+from 0.569 to 0.637. Both exceed the archived RT-DETR confidence score,
+although neither exceeds PatchCore in this condition.
+
+Under inpainting, DQCE achieves AUROC/AUPR/FPR95 of 0.748/0.647/0.695,
+the strongest values in the raw-score table. Its advantage over the
+three-branch result, 0.638/0.552/0.888, shows that adding branches does not
+automatically improve the final ranking. Snow is more difficult: PatchCore
+has the highest AUROC and lowest FPR95, while three-branch fusion has the
+highest AUPR of 0.482. The latter nevertheless has FPR95 of 0.942, so its
+precision--recall advantage does not imply a useful high-sensitivity
+operating point.
+
+Figure~\ref{fig:condition_scores} complements the table with normal and
+unknown score distributions for RT-DETR, PatchCore, and the proposed score
+configurations. The class-conditional scores permit inspection of score
+overlap, reversed ordering, and compressed score ranges beyond the aggregate
+metrics. No defect localization
+claim is inferred from these image-level scores.
+
+\begin{figure*}[!t]
+  \centering
+  \QSDexpArtwork{figure/figure7/fig7_unknown_score_distributions.png}
+    {figure/figure5/fig5_condition_comparison.png}{2.5in}
+  \caption{Image-level score distributions under rain, snow, and inpainting
+  on the condition-controlled test sets. Within each method--condition panel,
+  normal and unknown-defect images are shown separately. RT-DETR, PatchCore,
+  Ours (DQCE), Ours (QCS+semantic), and Ours (three-branch) use the same
+  image identities as Table~\ref{tab:unknown_methods}. The raw-score direction
+  is preserved. Method-specific score axes are stated explicitly because
+  the scores are not calibrated probabilities on a shared scale.}
+  \label{fig:condition_scores}
+\end{figure*}
+
+Score direction is a material part of this comparison. In a separate
+calibration-based audit, the selected PatchCore direction is positive for
+rain and snow and negative for inpainting. Across three seeds, its
+direction-audited inpainting AUROC is $0.642\pm0.004$, AUPR is
+$0.504\pm0.005$, and FPR95 is $0.816\pm0.012$. The corresponding DQCE
+results are $0.717\pm0.027$, $0.643\pm0.029$, and $0.856\pm0.139$.
+DQCE has higher mean AUROC and AUPR in this audited comparison, while
+PatchCore has lower mean FPR95. This qualification prevents the raw
+PatchCore inpainting result from being interpreted as an unconditional
+failure of the method. Raw-direction and calibration-selected comparisons
+are distinct protocols.
+
+\subsection{Ablation of the DQCE Training Objective}
+\label{subsec:dqce_ablation_results}
+
+This experiment tests the contribution of paired consistency and
+known-defect supervision while leaving the detector representation fixed.
+The complete adapter uses the normal and known-defect binary losses, the
+known-defect margin, and paired clean--degraded embedding consistency
+described in the Method section. The \emph{w/o pair} configuration sets the
+pair weight to zero. The \emph{w/o known supervision} configuration removes
+known-defect samples and therefore removes both their binary loss and the
+known-defect margin. It is not an ablation of the margin term alone.
+
+\begin{table*}[!t]
+  \centering
+  \caption{DQCE objective ablation on the condition-controlled tests.
+  Entries are the mean $\pm$ sample standard deviation over seeds 0, 1,
+  and 2. ``w/o known supervision'' removes both the known-defect binary
+  term and its margin. These repeated-run results are distinct from the
+  seed-0 comparison in Table~\ref{tab:unknown_methods}.}
+  \label{tab:dqce_ablation}
+  {\QSDexpTableStyle
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llccc@{}}
+    \toprule
+    Condition & Configuration & AUROC & AUPR & FPR95 \\
+    \midrule
+    Rain & Ours (full DQCE) & $0.667\pm0.031$ & $0.549\pm0.029$ & $0.822\pm0.097$ \\
+         & Ours w/o pair & $0.681\pm0.021$ & $0.531\pm0.015$ & $0.810\pm0.080$ \\
+         & Ours w/o known supervision & $0.713\pm0.006$ & $0.565\pm0.010$ & $0.678\pm0.012$ \\
+    \midrule
+    Snow & Ours (full DQCE) & $0.612\pm0.020$ & $0.513\pm0.042$ & $0.871\pm0.031$ \\
+         & Ours w/o pair & $0.591\pm0.004$ & $0.462\pm0.004$ & $0.828\pm0.021$ \\
+         & Ours w/o known supervision & $0.635\pm0.008$ & $0.476\pm0.008$ & $0.755\pm0.017$ \\
+    \midrule
+    Inpainting & Ours (full DQCE) & $0.717\pm0.027$ & $0.643\pm0.029$ & $0.856\pm0.139$ \\
+         & Ours w/o pair & $0.705\pm0.019$ & $0.600\pm0.020$ & $0.699\pm0.038$ \\
+         & Ours w/o known supervision & $0.684\pm0.011$ & $0.559\pm0.011$ & $0.797\pm0.045$ \\
+    \bottomrule
+  \end{tabular*}}
+\end{table*}
+
+Table~\ref{tab:dqce_ablation} shows that removing paired consistency lowers
+mean AUPR in every condition: from 0.549 to 0.531 under rain, from 0.513 to
+0.462 under snow, and from 0.643 to 0.600 under inpainting. AUROC and FPR95
+do not improve uniformly with this term. In particular, removing it reduces
+inpainting FPR95 from 0.856 to 0.699. The evidence therefore supports a
+mean AUPR benefit in these runs, rather than improvement at every threshold
+or on every metric.
+
+Removing known-defect supervision also has mixed effects. The full adapter
+has higher mean AUPR under snow and inpainting, but lower mean AUROC and
+higher FPR95 under rain and snow. The saved logit statistics provide an
+additional diagnostic: without known supervision, the within-run logit
+standard deviation is approximately $6\times10^{-5}$, compared with values
+of order one for the full adapter. Such score compression does not by itself
+force AUROC to chance, since ranking is invariant to strictly monotonic
+rescaling. It does, however, show why favorable ranking alone is insufficient
+to establish well-separated or numerically stable energy evidence.
+
+Figure~\ref{fig:dqce_ablation} therefore reports individual seed outcomes
+alongside mean AUPR and a logit-dispersion diagnostic. This presentation adds
+run-to-run variability and score-scale information to the exact aggregate
+metrics in Table~\ref{tab:dqce_ablation}.
+
+\begin{figure*}[!t]
+  \centering
+  \QSDexpArtwork{figure/figure8/fig8_dqce_ablation.png}
+    {figure/figure6/fig6_dqce_ablation.png}{2.5in}
+  \caption{Repeated-run DQCE ablation. Panels (a)--(c) show seed-wise AUPR
+  and the mean $\pm$ sample standard deviation for rain, snow, and
+  inpainting, respectively. Panel (d) shows the saved within-run logit
+  standard deviation on a logarithmic axis. All configurations use seeds
+  0, 1, and 2. The same seed bundle underlies
+  Table~\ref{tab:dqce_ablation}; logit dispersion diagnoses score compression
+  and is not a substitute for a ranking metric.}
+  \label{fig:dqce_ablation}
+\end{figure*}
+
+\subsection{Broader Image-Level Open-World Evaluation}
+\label{subsec:plamd_results}
+
+The PLAMD-labelled protocols test the saved detector evidence on a larger
+image population. Each archived evaluation contains 37610 images, including
+24690 normal images and 12920 unknown-labelled images. These results are
+not pooled with Table~\ref{tab:unknown_methods}: the sample population and
+unknown prevalence differ. Table~\ref{tab:open_world} reports only
+method--protocol pairs with a corresponding result artifact. In particular,
+the semantic configuration is available for Snow-held-out OOD; no mixed
+protocol value is inferred from that file.
+
+\begin{table*}[!t]
+  \centering
+  \caption{Image-level results on the archived PLAMD-labelled protocols.
+  Each protocol contains 24690 normal and 12920 unknown-labelled images.
+  AUROC and AUPR are higher-is-better; FPR95 is lower-is-better.
+  Comparisons are made within a protocol. These metrics do not evaluate
+  unknown-defect bounding-box localization.}
+  \label{tab:open_world}
+  {\QSDexpTableStyle
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llrrr@{}}
+    \toprule
+    Protocol & Method & AUROC & AUPR & FPR95 \\
+    \midrule
+    Mixed PLAMD OOD & RT-DETR & 0.398 & 0.312 & 1.000 \\
+                    & Ours (QCS--CSR) & 0.609 & 0.498 & 0.760 \\
+    \midrule
+    Snow-held-out OOD & RT-DETR & 0.305 & 0.256 & 0.999 \\
+                      & Ours (QCS--CSR) & 0.736 & 0.576 & 0.710 \\
+                      & Ours (semantic configuration) & 0.616 & 0.390 & 0.888 \\
+    \bottomrule
+  \end{tabular*}}
+\end{table*}
+
+In Mixed PLAMD OOD, QCS--CSR increases AUROC from 0.398 to 0.609 and AUPR
+from 0.312 to 0.498 relative to the archived RT-DETR score. FPR95 decreases
+from 1.000 to 0.760. Under Snow-held-out OOD, the corresponding AUROC
+increases from 0.305 to 0.736, while FPR95 decreases from 0.999 to 0.710.
+The semantic configuration improves on RT-DETR in the latter protocol but
+does not exceed QCS--CSR on the three reported metrics.
+
+Figure~\ref{fig:open_world_scores} compares normal and unknown score
+distributions for RT-DETR and QCS--CSR within each protocol. Its purpose is
+to expose the score ordering behind Table~\ref{tab:open_world}.
+The observed improvements support the
+use of additional detector evidence in these archived image-level tests.
+They do not isolate automatic quality routing, establish performance for
+the full three-branch pipeline, or demonstrate localization of novel defects.
+
+\begin{figure*}[!t]
+  \centering
+  \QSDexpArtwork{figure/figure9/fig9_open_world_scores.png}
+    {figure/figure7/fig7_open_world_comparison.png}{2.5in}
+  \caption{Normal and unknown image-level score distributions for RT-DETR
+  and Ours (QCS--CSR), shown separately for Mixed PLAMD OOD and
+  Snow-held-out OOD. Each panel preserves the saved score direction and
+  identifies the method-specific score axis. Protocols are not pooled.
+  The distributions complement the aggregate metrics in
+  Table~\ref{tab:open_world}.}
+  \label{fig:open_world_scores}
+\end{figure*}
+
+\subsection{Runtime and Practical Assessment Cost}
+\label{subsec:runtime_analysis}
+
+Table~\ref{tab:detection_complexity} reports detector-forward complexity
+and runtime. Figure~\ref{fig:efficiency} relates detection accuracy to
+latency and parameter count, and adds a separately timed image-level
+assessment experiment. The latter is needed because detector FPS alone
+does not measure the cost of loading images and running an external
+anomaly-scoring adapter or memory bank.
+
+In the saved assessment benchmark, the DQCE and PatchCore workflows process
+the same 422-image evaluation set. The recorded mean wall times are 16.22 s
+and 89.56 s, respectively, with run-to-run standard deviations of 0.85 s
+and 3.22 s. These totals include model loading and image I/O. They correspond
+to amortized rates of 26.02 and 4.71 images/s over this evaluation size,
+with peak GPU memory of 2312 and 2466 MB in the recorded memory runs.
+The measured wall-time ratio is approximately 5.52. These are workflow
+measurements for the recorded implementations, rather than steady-state
+detector FPS or a hardware-independent complexity claim.
+
+\begin{figure*}[!t]
+  \centering
+  \QSDexpArtwork{figure/figure10/fig10_accuracy_efficiency.png}
+    {figure/figure8/fig8_efficiency_comparison.png}{2.7in}
+  \caption{Accuracy and practical assessment cost. (a) Detection
+  mAP$_{50:95}$ versus detector-forward latency for the six models in
+  Table~\ref{tab:detection_complexity}, with marker area indicating parameter
+  count. (b) Repeated-run wall time for DQCE and PatchCore on 422 images,
+  including model loading and image I/O; error bars denote the recorded
+  run-to-run standard deviation. (c) Peak GPU memory in the corresponding
+  memory runs. The detector-forward and full-workflow timing protocols
+  are kept in separate panels.}
+  \label{fig:efficiency}
+\end{figure*}
+
+\subsection{Empirical Calibration-Based Rejection}
+\label{subsec:selective_results}
+
+Ranking and thresholded rejection address different operating requirements.
+For image $i$, let $r_i=1$ denote rejection as an unknown-defect candidate.
+With $y_i=1$ for an unknown defect, acceptance coverage, selective risk,
+and unknown recall are
+\begin{align}
+  \mathrm{Cov.}&=\frac{1}{N}\sum_i(1-r_i),\\
+  \mathrm{Risk}&=\frac{\sum_i(1-r_i)y_i}{\sum_i(1-r_i)},\\
+  \mathrm{Recall}_{\mathrm{unk}}&=\frac{\sum_i r_i y_i}{\sum_i y_i}.
+  \label{eq:exp_selective_metrics}
+\end{align}
+Selective risk here is the unknown-image proportion among accepted images,
+not a bounding-box error rate. Coverage is a retention measure and must be
+interpreted jointly with risk and unknown recall. For a nonempty accepted
+set, these quantities obey
+\begin{equation}
+ \mathrm{Risk}=\frac{(N_1/N)(1-\mathrm{Recall}_{\mathrm{unk}})}{\mathrm{Cov.}},
+ \label{eq:exp_selective_relation}
+\end{equation}
+where $N_1$ is the number of unknown images. They therefore summarize
+related aspects of the same acceptance decisions rather than independent
+performance gains.
+
+Table~\ref{tab:conformal} retains the archived operating points for three
+score configurations: condition-calibrated QCS+semantic, the archived
+unified QCS+semantic scoring variant, and condition-specific three-branch
+fusion. The first configuration calibrates QCS and semantic evidence.
+The term ``unified'' identifies the second
+stored scoring variant and does not imply that all three conditions share
+one coefficient vector or one threshold.
+
+\begin{table*}[!t]
+  \centering
+  \caption{Empirical selective-rejection operating points on the 422-image
+  condition-controlled tests. Cov. is acceptance coverage; Risk is the
+  unknown-image fraction among accepted images; Recall is unknown recall.
+  The first row uses condition-calibrated QCS+semantic scoring.
+  Thresholds are fixed by their respective calibration artifacts.}
+  \label{tab:conformal}
+  {\QSDexpTableStyle
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrrrrrrrr@{}}
+    \toprule
+    & \multicolumn{3}{c}{Rain} & \multicolumn{3}{c}{Snow}
+    & \multicolumn{3}{c}{Inpainting} \\
+    \cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}
+    Configuration & Cov. & Risk & Recall & Cov. & Risk & Recall
+    & Cov. & Risk & Recall \\
+    \midrule
+    \shortstack[l]{Ours (QCS+semantic,\\condition-calibrated)}
+      & 0.893 & 0.347 & 0.196 & 0.929 & 0.367 & 0.117 & 0.884 & 0.359 & 0.178 \\
+    \shortstack[l]{Ours (QCS+semantic,\\unified scoring)}
+      & 0.877 & 0.338 & 0.233 & 0.917 & 0.372 & 0.117 & 0.882 & 0.358 & 0.184 \\
+    Ours (three-branch)
+      & 0.896 & 0.349 & 0.190 & 0.917 & 0.372 & 0.117 & 0.884 & 0.346 & 0.209 \\
+    \bottomrule
+  \end{tabular*}}
+\end{table*}
+
+At the three-branch operating point under rain, coverage is 0.896, selective
+risk is 0.349, and unknown recall is 0.190. Under inpainting, the corresponding
+values are 0.884, 0.346, and 0.209. Under snow, unknown recall is only 0.117
+at coverage 0.917. Thus, most unknown images remain accepted at the selected
+threshold, despite the gains in some ranking metrics. Figure~\ref{fig:conformal}
+extends the single operating points to threshold-sweep risk--coverage and
+unknown-recall--coverage curves. The sweep describes test-set behavior;
+the table markers continue to use the stored calibration thresholds.
+
+\begin{figure*}[!t]
+  \centering
+  \QSDexpArtwork{figure/figure11/fig11_selective_risk_coverage.png}
+    {figure/figure9/fig9_conformal_rejection.png}{2.7in}
+  \caption{Empirical selective-rejection tradeoffs under rain, snow, and
+  inpainting. Risk--coverage and unknown-recall--coverage curves are obtained
+  by sweeping the score threshold for evaluation. Markers identify the fixed
+  calibration-selected operating points in Table~\ref{tab:conformal}.
+  Configurations are Ours (QCS+semantic, condition-calibrated), Ours
+  (QCS+semantic, unified scoring), and Ours (three-branch).
+  The curves do not imply a distribution-free guarantee under condition
+  shift, and no test-sweep threshold is substituted for the calibrated rule.}
+  \label{fig:conformal}
+\end{figure*}
+
+These results are empirical selective-prediction measurements. The archived
+workflow does not establish all independence and exchangeability conditions
+needed for a finite-sample split-conformal guarantee, particularly when
+score fitting and threshold calibration reuse observations or quality
+conditions shift. Consequently, nominal calibration levels are not
+interpreted as guaranteed test coverage or risk bounds.
+
+\subsection{Condition-Specific Fusion Analysis}
+\label{subsec:fusion_analysis}
+
+The fusion analysis uses the standardized branch evidence defined in the
+Method section. To make the experimental setting explicit, let
+\begin{equation}
+ S^{(d)}(\mathbf{x})=
+ w_{\mathrm{qcs}}^{(d)}\widetilde{A}^{\mathrm{qcs}}(\mathbf{x})+
+ w_{\mathrm{sem}}^{(d)}\widetilde{A}^{\mathrm{sem}}(\mathbf{x})+
+ w_{\mathrm{dqce}}^{(d)}\widetilde{A}^{\mathrm{dqce}}(\mathbf{x}),
+ \label{eq:exp_condition_fusion}
+\end{equation}
+where $d$ denotes the known evaluation condition. In QCS/semantic/DQCE
+order, the archived coefficient vectors are $(0.25,0.45,0.30)$ for rain,
+$(0.35,0.65,0.00)$ for snow, and $(0.05,0.10,0.85)$ for inpainting.
+Each vector is nonnegative and sums to one. In particular, the snow
+configuration assigns zero weight to DQCE, so it should not be described as
+using three nonzero branch contributions.
+
+Figure~\ref{fig:three_branch} visualizes these coefficients and image-level
+rank correlations between the branch scores. The coefficients describe the
+recorded combination, while the correlations permit inspection of whether
+the branches order the same test images similarly. Neither statistic alone
+establishes that a branch causes a gain. The actual fused ranking is
+evaluated in Table~\ref{tab:unknown_methods} and its calibrated operating
+point in Table~\ref{tab:conformal}.
+
+\begin{figure*}[!t]
+  \centering
+  \QSDexpArtwork{figure/figure12/fig12_fusion_analysis.png}
+    {figure/figure10/fig10_three_branch.png}{2.5in}
+  \caption{Condition-specific evidence fusion analysis. (a) The archived
+  QCS/semantic/DQCE coefficient vectors for rain, snow, and inpainting.
+  (b)--(d) Pairwise Spearman rank correlations among the three image-level
+  branch scores on the same test images within each condition. The
+  correlation analysis uses the saved score orientations and is descriptive.
+  Aggregate fused metrics and fixed-threshold rejection results are reported
+  in Tables~\ref{tab:unknown_methods} and~\ref{tab:conformal}, respectively.}
+  \label{fig:three_branch}
+\end{figure*}
+
+Under rain, the archived fusion improves ranking relative to DQCE alone,
+whereas under inpainting the DQCE-only result is stronger. The snow result
+also shows that an AUPR improvement can coexist with a poor FPR95. These
+outcomes motivate condition-aware evidence analysis but do not establish
+that the stored condition-specific coefficients constitute an automatically
+routed, universally preferable model. A single fixed fusion artifact
+evaluated on untouched conditions is a separate deployment question.
+
+\subsection{Discussion}
+\label{subsec:experimental_discussion}
+
+The experiments support three bounded conclusions. First, the evaluated
+QSD-DETR checkpoint retains competitive component-detection accuracy, with
+an observed mAP$_{50:95}$ gain of 1.47 percentage points over the evaluated
+RT-DETR checkpoint. Second, unknown-defect evidence is condition dependent:
+PatchCore is strongest under rain in the raw-score comparison, DQCE is
+strongest under inpainting, and snow remains difficult at high unknown
+sensitivity. Third, paired consistency improves mean AUPR across the three
+conditions in the DQCE ablation, while known-defect supervision has mixed
+effects across ranking and operating-point metrics.
+
+The remaining limitations concern what the evaluations measure. Selected
+detection examples cannot establish dataset-wide localization improvements;
+image-level novelty results cannot establish localization of unseen defects.
+The archived clean-state routing behavior and condition-specific fusion
+prevent a claim of validated automatic adaptation across conditions.
+Detector-forward FPS and complete-assessment wall time measure different
+execution scopes. Finally, empirical rejection under condition shift does
+not provide a guaranteed conformal risk bound. Keeping these distinctions
+explicit aligns the reported evidence with the scope of the proposed
+framework.

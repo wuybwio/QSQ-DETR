@@ -1,0 +1,74 @@
+{
+  "rain": {
+    "images": 422,
+    "normal": 259,
+    "unknown": 163,
+    "patchcore_sign": 1.0,
+    "point_metrics": {
+      "patchcore_auroc": 0.8446360470900348,
+      "patchcore_aupr": 0.7461480087820422,
+      "dqce_auroc": 0.7032356633583627,
+      "dqce_aupr": 0.5691701121558047
+    },
+    "dqce_minus_patchcore": {
+      "auroc_mean": -0.14103048298078974,
+      "auroc_ci95": [
+        -0.19156027192837,
+        -0.09221137219603492
+      ],
+      "aupr_mean": -0.1752889022643384,
+      "aupr_ci95": [
+        -0.25254973162605365,
+        -0.09584852345453444
+      ]
+    }
+  },
+  "snow": {
+    "images": 422,
+    "normal": 259,
+    "unknown": 163,
+    "patchcore_sign": 1.0,
+    "point_metrics": {
+      "patchcore_auroc": 0.6294857521851387,
+      "patchcore_aupr": 0.47064382995213155,
+      "dqce_auroc": 0.5911125849776155,
+      "dqce_aupr": 0.4674957887694463
+    },
+    "dqce_minus_patchcore": {
+      "auroc_mean": -0.037673932302153164,
+      "auroc_ci95": [
+        -0.10643046639979166,
+        0.03465724708055986
+      ],
+      "aupr_mean": -0.002260882464309265,
+      "aupr_ci95": [
+        -0.07595835645013027,
+        0.07660485853324864
+      ]
+    }
+  },
+  "inpainting": {
+    "images": 422,
+    "normal": 259,
+    "unknown": 163,
+    "patchcore_sign": -1.0,
+    "point_metrics": {
+      "patchcore_auroc": 0.644029656299595,
+      "patchcore_aupr": 0.5017391231557324,
+      "dqce_auroc": 0.7475424591989008,
+      "dqce_aupr": 0.6469468554464906
+    },
+    "dqce_minus_patchcore": {
+      "auroc_mean": 0.10397411943056116,
+      "auroc_ci95": [
+        0.024468223701352435,
+        0.17964741691735553
+      ],
+      "aupr_mean": 0.1416417063184576,
+      "aupr_ci95": [
+        0.04713499374652275,
+        0.23062655841738813
+      ]
+    }
+  }
+}

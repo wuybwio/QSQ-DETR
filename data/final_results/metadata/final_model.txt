@@ -1,0 +1,10 @@
+model=RT-DETRv2+QCS-CSR+DQCE
+detector_checkpoint=output/qcs_semantic_supervised_seed0/best.pth
+adapter_seed0=output/dqce_adapter_trainonly_seed0/best.pth
+adapter_seed1=output/dqce_adapter_trainonly_seed1/best.pth
+adapter_seed2=output/dqce_adapter_trainonly_seed2/last.pth
+image_size=640
+topk=10
+test_images_per_condition=422
+normal_images=259
+unknown_images=163

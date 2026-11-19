@@ -1,0 +1,15 @@
+{
+  "kind": "rtdetr",
+  "weights": null,
+  "config": "configs/rtdetrv2/rtdetrv2_r50vd_qcs_semantic_insplad.yml",
+  "checkpoint": "output/qcs_semantic_supervised_seed0/best.pth",
+  "input_size": 640,
+  "device": "cuda:0",
+  "parameters": 43062464,
+  "parameters_million": 43.062464,
+  "gflops": 68.017020032,
+  "latency_ms": 15.926683805009816,
+  "fps": 62.78770974818029,
+  "warmup": 50,
+  "iterations": 200
+}

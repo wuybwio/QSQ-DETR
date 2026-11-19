@@ -1,0 +1,15 @@
+{
+  "kind": "frcnn",
+  "weights": null,
+  "config": null,
+  "checkpoint": "output/detection_baselines/fasterrcnn_r50fpn_scratch_seed0/best.pth",
+  "input_size": 640,
+  "device": "cuda:0",
+  "parameters": 41439406,
+  "parameters_million": 41.439406,
+  "gflops": 91.1618816,
+  "latency_ms": 16.355072440055665,
+  "fps": 61.14311041208671,
+  "warmup": 50,
+  "iterations": 200
+}

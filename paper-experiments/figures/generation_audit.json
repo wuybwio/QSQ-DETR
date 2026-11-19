@@ -1,0 +1,410 @@
+{
+  "detection_color_mapping": {
+    "C10 polymer insulator lower shackle": "#5376B9",
+    "C12 polymer insulator tower shackle": "#515C66",
+    "C05 lightning rod suspension": "#56B4E9",
+    "C11 polymer insulator upper shackle": "#A45470",
+    "C04 lightning rod shackle": "#CC79A7",
+    "C15 glass insulator tower shackle": "#4C8899",
+    "C08 tower id plate": "#407C70",
+    "C01 yoke suspension": "#D55E00",
+    "C06 polymer insulator": "#6B5B95",
+    "C07 glass insulator": "#8C564B",
+    "C13 glass insulator big shackle": "#925A36",
+    "C03 stockbridge damper": "#E69F00",
+    "C02 spacer": "#009E73",
+    "C16 spiral damper": "#7B63A5",
+    "C00 yoke": "#0072B2",
+    "C14 glass insulator small shackle": "#596A2E",
+    "C09 vari-grip": "#A96B20"
+  },
+  "outputs": [
+    "[machine-specific path removed]",
+    "[machine-specific path removed]",
+    "[machine-specific path removed]",
+    "[machine-specific path removed]",
+    "[machine-specific path removed]",
+    "[machine-specific path removed]",
+    "[machine-specific path removed]"
+  ],
+  "detector_points_provenance": "User-supplied benchmark console logs and previously verified COCO evaluation caches; raw table values preserved.",
+  "checks": [
+    {
+      "score": "msp_score",
+      "auroc_recomputed": 0.3737475424591989,
+      "images": 422,
+      "file": "output/open_set_baselines/rain_test_energy_msp_seed0.json"
+    },
+    {
+      "score": "msp_score",
+      "auroc_recomputed": 0.4739559892934126,
+      "images": 422,
+      "file": "output/open_set_baselines/snow_test_energy_msp_seed0.json"
+    },
+    {
+      "score": "msp_score",
+      "auroc_recomputed": 0.4285003671506739,
+      "images": 422,
+      "file": "output/open_set_baselines/inpainting_test_energy_msp_seed0.json"
+    },
+    {
+      "score": "patchcore_score",
+      "auroc_recomputed": 0.8446360470900348,
+      "images": 422,
+      "file": "output/patchcore_wrn50_dim256_10pct_gpu_seed0/rain_test.json"
+    },
+    {
+      "score": "patchcore_score",
+      "auroc_recomputed": 0.6294857521851387,
+      "images": 422,
+      "file": "output/patchcore_wrn50_dim256_10pct_gpu_seed0/snow_test.json"
+    },
+    {
+      "score": "patchcore_score",
+      "auroc_recomputed": 0.35597034370040503,
+      "images": 422,
+      "file": "output/patchcore_wrn50_dim256_10pct_gpu_seed0/inpainting_test.json"
+    },
+    {
+      "score": "dqce_score",
+      "auroc_recomputed": 0.7032475069284885,
+      "images": 422,
+      "file": "output/final_results/dqce/rain_seed0.json"
+    },
+    {
+      "score": "dqce_score",
+      "auroc_recomputed": 0.5911362721178672,
+      "images": 422,
+      "file": "output/final_results/dqce/snow_seed0.json"
+    },
+    {
+      "score": "dqce_score",
+      "auroc_recomputed": 0.7475424591989009,
+      "images": 422,
+      "file": "output/final_results/dqce/inpainting_seed0.json"
+    },
+    {
+      "score": "combined_score",
+      "auroc_recomputed": 0.7302034725347609,
+      "images": 422,
+      "file": "output/rain_test_qcs_semantic.json"
+    },
+    {
+      "score": "combined_score",
+      "auroc_recomputed": 0.5658384063292039,
+      "images": 422,
+      "file": "output/snow_test_qcs_semantic.json"
+    },
+    {
+      "score": "combined_score",
+      "auroc_recomputed": 0.5631617594807778,
+      "images": 422,
+      "file": "output/inpainting_test_qcs_semantic.json"
+    },
+    {
+      "score": "three_branch_score",
+      "auroc_recomputed": 0.7633180946064382,
+      "images": 422,
+      "file": "output/rain_three_branch_test.json"
+    },
+    {
+      "score": "three_branch_score",
+      "auroc_recomputed": 0.5767581779851718,
+      "images": 422,
+      "file": "output/snow_three_branch_test.json"
+    },
+    {
+      "score": "three_branch_score",
+      "auroc_recomputed": 0.6377762512731838,
+      "images": 422,
+      "file": "output/inpainting_three_branch_test.json"
+    },
+    {
+      "score": "unknown_score",
+      "auroc_recomputed": 0.3976363689941027,
+      "images": 37610,
+      "file": "output/plamd_ood_baseline.json"
+    },
+    {
+      "score": "unknown_score",
+      "auroc_recomputed": 0.6090178883793717,
+      "images": 37610,
+      "file": "output/plamd_ood_qcs_csr.json"
+    },
+    {
+      "score": "unknown_score",
+      "auroc_recomputed": 0.3052716439264841,
+      "images": 37610,
+      "file": "output/plamd_snow_ood_baseline.json"
+    },
+    {
+      "score": "unknown_score",
+      "auroc_recomputed": 0.7356586706115585,
+      "images": 37610,
+      "file": "output/plamd_snow_ood_qcs_csr.json"
+    },
+    {
+      "score": "combined_score",
+      "auroc_recomputed": 0.7914110429447853,
+      "images": 422,
+      "file": "output/final_results/rain_test_seed0.json"
+    },
+    {
+      "score": "combined_score",
+      "auroc_recomputed": 0.7323826894379042,
+      "images": 422,
+      "file": "output/unified_rain_test.json"
+    },
+    {
+      "score": "three_branch_score",
+      "auroc_recomputed": 0.7633180946064382,
+      "images": 422,
+      "file": "output/rain_three_branch_test.json"
+    },
+    {
+      "score": "combined_score",
+      "auroc_recomputed": 0.5868015254518322,
+      "images": 422,
+      "file": "output/final_results/snow_test_seed0.json"
+    },
+    {
+      "score": "combined_score",
+      "auroc_recomputed": 0.5767581779851718,
+      "images": 422,
+      "file": "output/unified_snow_test.json"
+    },
+    {
+      "score": "three_branch_score",
+      "auroc_recomputed": 0.5767581779851718,
+      "images": 422,
+      "file": "output/snow_three_branch_test.json"
+    },
+    {
+      "score": "combined_score",
+      "auroc_recomputed": 0.624653575573821,
+      "images": 422,
+      "file": "output/final_results/inpainting_test_seed0.json"
+    },
+    {
+      "score": "combined_score",
+      "auroc_recomputed": 0.5970580571807566,
+      "images": 422,
+      "file": "output/unified_inpainting_test.json"
+    },
+    {
+      "score": "three_branch_score",
+      "auroc_recomputed": 0.6377762512731838,
+      "images": 422,
+      "file": "output/inpainting_three_branch_test.json"
+    },
+    "Fig11: all 9 archived operating points reproduced with accepted = score < threshold; tied scores kept together.",
+    {
+      "score": "three_branch_score",
+      "auroc_recomputed": 0.7633180946064382,
+      "images": 422,
+      "file": "output/rain_three_branch_test.json"
+    },
+    {
+      "score": "three_branch_score",
+      "auroc_recomputed": 0.5767581779851718,
+      "images": 422,
+      "file": "output/snow_three_branch_test.json"
+    },
+    {
+      "score": "three_branch_score",
+      "auroc_recomputed": 0.6377762512731838,
+      "images": 422,
+      "file": "output/inpainting_three_branch_test.json"
+    }
+  ],
+  "failures": [],
+  "score_direction": "Archived direction; never inverted",
+  "detection_confidence": 0.25,
+  "sources": {
+    "output/final_results/figures/yolo/yolo12m/predictions.json": {
+      "sha256": "76adb327df0d7310fbcb7eb567324f855a912d0d921bd02f7e6156fd81f759b6",
+      "bytes": 10710
+    },
+    "output/unified_snow_test.json": {
+      "sha256": "ace122b27b8edf6af9714453ea2116f15b85ae184085f007a467627fc65d1214",
+      "bytes": 324506
+    },
+    "output/open_set_baselines/rain_test_energy_msp_seed0.json": {
+      "sha256": "8d089d5617d3a2d3412a24a117359e139f9b42092a905e37cd2f03eb418753f8",
+      "bytes": 207137
+    },
+    "source_001": {
+      "sha256": "f0f3667c872ddfd1845ec6857c249e0bdd64337dd641368526294b73e4e08adb",
+      "bytes": 1264448
+    },
+    "output/open_set_baselines/snow_test_energy_msp_seed0.json": {
+      "sha256": "bfa05e9ec8c161460f801249ef0cbc1b45a3df6923467f3b27f67c5d2325d1d1",
+      "bytes": 207180
+    },
+    "output/unified_inpainting_test.json": {
+      "sha256": "68268b1dd3071431ecb5cab4645460bf034092061bae37e0e59632d5d7c0a75a",
+      "bytes": 332135
+    },
+    "output/snow_three_branch_test.json": {
+      "sha256": "055177d1ad2968abdfcf00c08c864cc641ed007ff2d3666c2ade1fe5cc2a7af2",
+      "bytes": 373227
+    },
+    "output/open_set_baselines/inpainting_test_energy_msp_seed0.json": {
+      "sha256": "dde2717c2b1295d19659f083981480ad80f5ca1bce3d3099c0974a0fc520f0fa",
+      "bytes": 214836
+    },
+    "output/plamd_snow_ood_qcs_csr.json": {
+      "sha256": "473bd4bb3bdb3e1c1e4fbbf340e2ac989db1d863cb3916e672d39c586aa747c9",
+      "bytes": 16174287
+    },
+    "output/inpainting_three_branch_test.json": {
+      "sha256": "b866879b3073c877a49cfbbe9ee57ff533c4773d738fc49532899deec16bd20e",
+      "bytes": 381828
+    },
+    "output/plamd_snow_ood_baseline.json": {
+      "sha256": "506c0e0fac5f5c24ee23886bb8d2cfc1a586a593ef4800416c7732c86520a7ca",
+      "bytes": 16137531
+    },
+    "output/rain_three_branch_test.json": {
+      "sha256": "9034bdaff7059f56d2c2014df86d5b251c7764df38215bcc44c5c22b15e925d5",
+      "bytes": 374015
+    },
+    "output/unified_rain_test.json": {
+      "sha256": "de27b9c80dc7c2ad61001f14e7185f55fa62de5c4b18209740fc03bd6eb880f7",
+      "bytes": 324689
+    },
+    "output/rain_test_qcs_semantic.json": {
+      "sha256": "92609996602de773a79f15bbfdd9bd4d1b14da6902e220aeffc6e23a547278ba",
+      "bytes": 324845
+    },
+    "output/inpainting_test_qcs_semantic.json": {
+      "sha256": "4f76a80bc4350a590643503185e914ac8fb8476b96eedaee4ff7d2324cd980d0",
+      "bytes": 331989
+    },
+    "output/final_results/figures/detection_image_manifest.json": {
+      "sha256": "9c81f748f38db464f7b5dab8aee02fcd31b47b6b23119dbe911048168ed55ba6",
+      "bytes": 562
+    },
+    "output/final_results/figures/other/rtdetr_ours/predictions.json": {
+      "sha256": "c0483e6e1e43aa267d07cd94012b2abe947f5e44e080e97be4c8902d1a622bae",
+      "bytes": 10217
+    },
+    "output/final_results/dqce/inpainting_seed0.json": {
+      "sha256": "31e5feec3379908fa896b264f08c2fb90f594de2d0ef2701c61cbfdb3a007086",
+      "bytes": 215065
+    },
+    "output/final_results/dqce_ablation_3seed_summary.json": {
+      "sha256": "767cb717350313fdd7e1d3bfb3d1dc5c2ee954a583e2a4a87af9c119ef309808",
+      "bytes": 12085
+    },
+    "output/plamd_ood_qcs_csr.json": {
+      "sha256": "d73212f319dd58c86032726b1bbe6f98e5176d8619ba133efecc90d0dcac8abd",
+      "bytes": 16843105
+    },
+    "output/final_results/figures/yolo/yolo11m/predictions.json": {
+      "sha256": "10df592f11777aa54fddfa2865167c622531dad9d07dfdedd8d4f3a36fcee653",
+      "bytes": 10983
+    },
+    "output/final_results/inpainting_test_seed0.json": {
+      "sha256": "4fe0b533c45ca41f762404e52a22ff5441986b49f9208b16b7a1197b65720ae9",
+      "bytes": 235140
+    },
+    "output/final_results/dqce/snow_seed0.json": {
+      "sha256": "7c50a25aadfd9b9e15b735077b2867de055625f4b9290e8e512ca2502d9f4d53",
+      "bytes": 206582
+    },
+    "output/final_results/dqce/rain_seed0.json": {
+      "sha256": "22481b75986f575cb7630111a3520a357ad59f0f10923c0d8ed0cb78b5417209",
+      "bytes": 207356
+    },
+    "output/final_results/figures/other/faster_rcnn/predictions.json": {
+      "sha256": "3dc6a8fe971e00cc9f7689b68dea1d402151b8fb7bf25f39eb0a92b01966fa4b",
+      "bytes": 9573
+    },
+    "output/final_results/rain_test_seed0.json": {
+      "sha256": "e9f0ee7e4746e4b5f48aca9fb763bc161cee9f08d03ee901089e5553e0b50408",
+      "bytes": 227713
+    },
+    "output/patchcore_wrn50_dim256_10pct_gpu_seed0/snow_test.json": {
+      "sha256": "914cf2a04262d49e493337189c191f0635823227c0e046f27cb00d6067351b71",
+      "bytes": 314424
+    },
+    "output/snow_test_qcs_semantic.json": {
+      "sha256": "7d103bce238870a9bdcae57c24229db81a380af6be8ea6b5f14c6e697bba12a6",
+      "bytes": 324595
+    },
+    "output/patchcore_wrn50_dim256_10pct_gpu_seed0/inpainting_test.json": {
+      "sha256": "d99a5c6842958c30c34c5f8e2ec13dd4ece16a832ab757d1f59e59f867e63b9f",
+      "bytes": 321859
+    },
+    "output/patchcore_wrn50_dim256_10pct_gpu_seed0/rain_test.json": {
+      "sha256": "6a607e0848339b693564b3219461ff73ac77ed69442f579f558e295140d89b63",
+      "bytes": 314474
+    },
+    "output/final_results/efficiency_report.json": {
+      "sha256": "e187b619a3516ac1597babfb57fe6b34eb2093543f8a4e073ce3416b11719853",
+      "bytes": 688
+    },
+    "output/final_results/figures/other/rtdetr_baseline/predictions.json": {
+      "sha256": "a9adf2f7e68c662f43c0f0db2fc12312edc42a96058bdc9cac7fbdbfcff4df77",
+      "bytes": 10235
+    },
+    "output/final_results/figures/yolo/yolov8m/predictions.json": {
+      "sha256": "b48e24628f02a2bf7099d6be8fda0c39bb35bf56286d6837edfde593c8453c48",
+      "bytes": 10737
+    },
+    "output/plamd_ood_baseline.json": {
+      "sha256": "d7c94e157059d3ed539efac3785ae95b4a2a33eac53ee389624217a0b1bed692",
+      "bytes": 16815196
+    },
+    "output/final_results/snow_test_seed0.json": {
+      "sha256": "ed110ede968e3f4d94bb568aadda28f1db216b72cd280c64fe60876bb4973db6",
+      "bytes": 324527
+    }
+  },
+  "detection_cases": [
+    {
+      "id": "easy_001",
+      "image": "[machine-specific path removed]",
+      "zoom_xyxy": [
+        269,
+        151,
+        1651,
+        929
+      ]
+    },
+    {
+      "id": "crowded_001",
+      "image": "[machine-specific path removed]",
+      "zoom_xyxy": [
+        928,
+        482,
+        1236,
+        720
+      ]
+    },
+    {
+      "id": "small_object_001",
+      "image": "[machine-specific path removed]",
+      "zoom_xyxy": [
+        836,
+        188,
+        1143,
+        404
+      ]
+    },
+    {
+      "id": "overlap_candidate_001",
+      "image": "[machine-specific path removed]",
+      "zoom_xyxy": [
+        616,
+        357,
+        923,
+        605
+      ]
+    }
+  ],
+  "font": "Times New Roman",
+  "font_file": "[machine-specific path removed]",
+  "dpi": 450
+}

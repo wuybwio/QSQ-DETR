@@ -1,0 +1,38 @@
+\begin{table}[t]
+\caption{Calibration-Based Assessment of Alternative DQCE Designs.
+All variants were selected and rejected without accessing the test set.}
+\label{tab:failed_extensions}
+\centering
+\setlength{\tabcolsep}{3.4pt}
+\begin{tabular}{lcccc}
+\hline
+Variant &
+Mean AUROC &
+Mean AUPR &
+Bird-Nest &
+Missing-Cap \\
+\hline
+Signed DQCE (tuning) &
+\textbf{0.6210} &
+\textbf{0.5138} &
+\textbf{0.7653} &
+\textbf{0.5461} \\
+Two-tail DQCE (tuning) &
+0.4752 &
+0.4035 &
+0.4428 &
+0.4919 \\
+\hline
+Signed DQCE (held-out calibration) &
+\textbf{0.6696} &
+\textbf{0.5673} &
+\textbf{0.8204} &
+\textbf{0.5900} \\
+Two-tail DQCE (held-out calibration) &
+0.4583 &
+0.4284 &
+0.4792 &
+0.4473 \\
+\hline
+\end{tabular}
+\end{table}

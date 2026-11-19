@@ -1,0 +1,59 @@
+{
+  "rain": {
+    "images": 422,
+    "auroc": 0.6490750171731766,
+    "aupr": 0.4931430125676137,
+    "defect_types": {
+      "bird-nest": {
+        "images": 315,
+        "unknown": 56,
+        "auroc": 0.8278405956977385,
+        "aupr": 0.4635359631785965
+      },
+      "missing-cap": {
+        "images": 366,
+        "unknown": 107,
+        "auroc": 0.5555154620575181,
+        "aupr": 0.2931632250037489
+      }
+    }
+  },
+  "snow": {
+    "images": 422,
+    "auroc": 0.5846223085486889,
+    "aupr": 0.4653722485976981,
+    "defect_types": {
+      "bird-nest": {
+        "images": 315,
+        "unknown": 56,
+        "auroc": 0.694015444015444,
+        "aupr": 0.319829248692587
+      },
+      "missing-cap": {
+        "images": 366,
+        "unknown": 107,
+        "auroc": 0.527369826435247,
+        "aupr": 0.3204700343015672
+      }
+    }
+  },
+  "inpainting": {
+    "images": 422,
+    "auroc": 0.6110097827889239,
+    "aupr": 0.4912450964305347,
+    "defect_types": {
+      "bird-nest": {
+        "images": 315,
+        "unknown": 56,
+        "auroc": 0.8541781577495864,
+        "aupr": 0.4890952790349217
+      },
+      "missing-cap": {
+        "images": 366,
+        "unknown": 107,
+        "auroc": 0.48374409122072665,
+        "aupr": 0.27828293141052374
+      }
+    }
+  }
+}
